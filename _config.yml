@@ -1,0 +1,6 @@
+title: slonprivacy
+description: Юридическая информация
+remote_theme: pages-themes/minimal@main
+show_downloads: true          
+markdown: kramdown
+highlighter: rouge
