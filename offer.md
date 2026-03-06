@@ -2,6 +2,7 @@
 layout: default
 title: Публичная оферта
 ---
+<a href="/" class="back-button">Назад на главную</a>
 
 <b>ПУБЛИЧНАЯ ОФЕРТА</b>
 
