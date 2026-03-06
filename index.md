@@ -10,7 +10,6 @@ title: Главная
 
 Если у вас есть вопросы — пишите на info_slonprivacy@proton.me
 
-© 2026 {{ site.title }}
 <footer style="margin-top: 3rem; padding: 1.5rem 0; text-align: center; font-size: 0.9rem; color: #666; border-top: 1px solid #ddd; background-color: #f9f9f9;">
   <p>
     © {{ 'now' | date: "%Y" }} {{ site.title | default: "SlonPrivacy" }} •
