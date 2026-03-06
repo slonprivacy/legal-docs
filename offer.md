@@ -261,3 +261,15 @@ title: Публичная оферта
 ОГРНИП 321774600494241  
 ИНН 421713484462  
 адрес эл. почты: <a href="mailto:info_slonprivacy@proton.me">info_slonprivacy@proton.me</a>
+
+<footer style="margin-top: 3rem; padding: 1.5rem 0; text-align: center; font-size: 0.9rem; color: #666; border-top: 1px solid #ddd; background-color: #f9f9f9;">
+  <p>
+    © {{ 'now' | date: "%Y" }} {{ site.title | default: "SlonPrivacy" }} •
+    <a href="/offer" style="margin: 0 0.5rem; color: #0366d6; text-decoration: none;">Оферта</a> •
+    <a href="/terms" style="margin: 0 0.5rem; color: #0366d6; text-decoration: none;">Правила пользования</a> •
+    <a href="/privacy" style="margin: 0 0.5rem; color: #0366d6; text-decoration: none;">Политика конфиденциальности</a>
+  </p>
+  <small style="color: #888;">
+    Сайт размещён на GitHub Pages
+  </small>
+</footer>
