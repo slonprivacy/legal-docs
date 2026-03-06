@@ -1,6 +1,6 @@
 ---
 layout: default          
-title: Главная
+title: SlonPrivacy
 ---
 {{ site.description }}
 
