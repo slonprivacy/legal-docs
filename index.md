@@ -8,7 +8,7 @@ title: Главная
 - [Правила пользования](/terms)
 - [Политика конфиденциальности](/privacy)
 
-Если у вас есть вопросы — пишите на info_slonprivacy@proton.me
+По всем вопросам — пишите на info_slonprivacy@proton.me
 
 <footer style="margin-top: 3rem; padding: 1.5rem 0; text-align: center; font-size: 0.9rem; color: #666; border-top: 1px solid #ddd; background-color: #f9f9f9;">
   <p>
