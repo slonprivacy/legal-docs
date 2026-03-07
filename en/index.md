@@ -2,6 +2,7 @@
 layout: default
 title: Legal Documentation
 lang: en
+permalink: /en/
 ---
 
 - [Public Offer]({{ site.baseurl }}/en/offer)

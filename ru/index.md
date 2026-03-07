@@ -2,6 +2,7 @@
 layout: default
 title: Документация
 lang: ru
+permalink: /
 ---
 
 - [Публичная оферта]({{ site.baseurl }}/offer)

@@ -2,6 +2,7 @@
 layout: default
 title: Public Offer
 lang: en
+permalink: /en/offer
 ---
 
 <b>PUBLIC OFFER</b>
