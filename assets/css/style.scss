@@ -34,7 +34,35 @@
   --dropdown-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
 }
 
-/* Base body styles to ensure bg-primary is used */
+/* Progress Bar */
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--accent);
+  width: 0%;
+  transition: width 0.1s ease;
+}
+
+/* Page Transitions */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.site-content {
+  min-height: 60vh;
+  animation: fadeIn 0.4s ease-out;
+}
+
 body {
   font-family: var(--font-main);
   background-color: var(--bg-primary);
@@ -225,11 +253,7 @@ a:hover {
 [data-theme="dark"] .sun-icon { display: none; }
 [data-theme="dark"] .moon-icon { display: block; }
 
-/* Content */
-.site-content {
-  min-height: 60vh;
-}
-
+/* Content Details */
 .back-link {
   display: inline-block;
   margin-bottom: 2rem;
@@ -315,6 +339,23 @@ a:hover {
   transform: translateY(-2px);
   opacity: 1;
   text-decoration: none;
+}
+
+/* 404 Styles */
+.not-found {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  opacity: 0.2;
+  margin-bottom: 0;
+}
+
+.not-found p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 /* Footer */
