@@ -445,3 +445,160 @@ a:hover {
     margin-bottom: 1.5rem;
   }
 }
+
+/* === Knowledge Base: installation guide === */
+.guide-page {
+  --guide-accent-soft: rgba(126, 202, 179, 0.14);
+}
+
+.guide-app-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--text-primary);
+  background: var(--guide-accent-soft);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.guide-lead { font-size: 1.05rem; }
+
+.guide-tabs {
+  display: flex;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2rem;
+  padding: 0.35rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--code-bg);
+}
+
+.guide-tab {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  color: var(--text-secondary);
+  text-align: center;
+  font-weight: 600;
+}
+.guide-tab:hover { text-decoration: none; opacity: 1; }
+.guide-tab.is-active {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  border: 1px solid var(--accent);
+}
+
+.guide-note,
+.guide-warning,
+.guide-success {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  background: var(--code-bg);
+}
+.guide-note p { margin: 0.35rem 0; }
+.guide-success { font-size: 1.02rem; }
+
+.guide-video-section { margin-top: 2.5rem; }
+.guide-video {
+  display: block;
+  width: 100%;
+  max-height: 640px;
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #000;
+}
+
+.guide-step {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.guide-step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  color: var(--text-primary);
+  background: var(--guide-accent-soft);
+  font-weight: 700;
+}
+.guide-step-content h2 { margin-top: 0; }
+
+.guide-image {
+  display: block;
+  width: auto;
+  max-width: min(100%, 590px);
+  max-height: 820px;
+  margin: 1.25rem auto 1.75rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  object-fit: contain;
+}
+.guide-image-small {
+  width: 100%;
+  max-width: 520px;
+  margin-bottom: 0.5rem;
+}
+
+.prose .guide-simple-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.prose .guide-simple-list li a {
+  display: inline;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-weight: inherit;
+}
+
+.guide-faq { margin-top: 3.5rem; }
+.guide-faq details {
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-primary);
+  overflow: hidden;
+}
+.guide-faq summary {
+  position: relative;
+  padding: 1rem 3rem 1rem 1.1rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  font-weight: 600;
+  list-style: none;
+}
+.guide-faq summary::-webkit-details-marker { display: none; }
+.guide-faq summary::after {
+  content: "+";
+  position: absolute;
+  right: 1.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+  font-size: 1.4rem;
+}
+.guide-faq details[open] summary::after { content: "−"; }
+.guide-faq details > p,
+.guide-faq details > img {
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
+}
+.guide-faq details > p:last-child { margin-bottom: 1.1rem; }
+
+@media (max-width: 600px) {
+  .guide-step { grid-template-columns: 34px minmax(0, 1fr); gap: 0.75rem; }
+  .guide-step-number { width: 32px; height: 32px; }
+  .guide-tabs { flex-direction: column; }
+}
