@@ -1,0 +1,13 @@
+<script>
+document.querySelectorAll('[data-app-tabs]').forEach((tabs) => {
+  const buttons = tabs.querySelectorAll('[role="tab"]');
+  const panels = tabs.querySelectorAll('[role="tabpanel"]');
+  buttons.forEach((button) => button.addEventListener('click', () => {
+    buttons.forEach((item) => item.setAttribute('aria-selected', 'false'));
+    panels.forEach((panel) => panel.classList.remove('is-active'));
+    button.setAttribute('aria-selected', 'true');
+    const panel = tabs.querySelector('#' + button.getAttribute('aria-controls'));
+    if (panel) panel.classList.add('is-active');
+  }));
+});
+</script>
