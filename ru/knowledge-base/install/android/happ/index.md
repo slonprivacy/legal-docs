@@ -1,0 +1,117 @@
+---
+layout: default
+title: Установка Slon Privacy на Android
+lang: ru
+permalink: /ru/knowledge-base/install/android/happ/
+---
+
+<div class="guide-page">
+  <div class="guide-app-badge">Android · Happ Plus</div>
+
+  <p class="guide-lead">
+    Slon Privacy предоставляет несколько вариантов подключения к Сервису. Выберите нужную вкладку, чтобы ознакомиться с инструкцией по установке приложения. Если сомневаетесь в выборе — берите INCY.
+  </p>
+
+  <div class="guide-tabs" role="navigation" aria-label="Выбор приложения">
+    <a class="guide-tab is-active" href="{{ site.baseurl }}/ru/knowledge-base/install/android/happ/" aria-current="page">Happ Plus</a>
+    <a class="guide-tab" href="{{ site.baseurl }}/ru/knowledge-base/install/android/incy/">INCY</a>
+  </div>
+
+  <p><strong>Установите Happ, добавьте подписку Slon Privacy и подключитесь к серверу. Обычно настройка занимает не более 2–3 минут.</strong></p>
+
+  <div class="guide-note">
+    <strong>Перед началом</strong>
+    <p>Убедитесь, что подписка Slon Privacy активна, а телефон подключён к интернету.</p>
+    <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
+  </div>
+
+  <section class="guide-video-section" aria-labelledby="video-title">
+    <h2 id="video-title">Видеоинструкция</h2>
+    <p>Посмотрите весь процесс установки и подключения Happ на Android.</p>
+    <video class="guide-video" controls playsinline preload="metadata">
+      <source src="{{ site.baseurl }}/assets/video/knowledge-base/android/happ/android-happ-install.mp4" type="video/mp4">
+      Ваш браузер не поддерживает воспроизведение видео.
+    </video>
+  </section>
+
+  <section class="guide-step">
+    <div class="guide-step-number">1</div>
+    <div class="guide-step-content">
+      <h2>Авторизируйтесь</h2>
+      <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или через сайт. Нажмите «Главная», затем нажмите «Подключить устройство».</p>
+      <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/01-connect-device.webp" alt="Кнопка «Подключить устройство» в личном кабинете Slon Privacy" loading="lazy">
+    </div>
+  </section>
+
+  <section class="guide-step">
+    <div class="guide-step-number">2</div>
+    <div class="guide-step-content">
+      <h2>Установите Happ</h2>
+      <p>Выберите устройство <strong>Android</strong> и приложение <strong>Happ Plus</strong>.</p>
+      <p>Нажмите <strong>«Открыть в Google Play»</strong>. Если Google Play недоступен, используйте кнопку <strong>«Скачать APK»</strong>.</p>
+      <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/02-select-android-happ.webp" alt="Выбор Android и Happ на странице установки Slon Privacy" loading="lazy">
+      <p>В Google Play установите <strong>«Happ — Proxy Utility»</strong>. Если приложение уже установлено, будет показана кнопка «Открыть».</p>
+      <div class="guide-warning"><strong>Важно:</strong> APK следует устанавливать только с проверенных источников. Google Play является приоритетным способом установки.</div>
+    </div>
+  </section>
+
+  <section class="guide-step">
+    <div class="guide-step-number">3</div>
+    <div class="guide-step-content">
+      <h2>Добавьте подписку</h2>
+      <p>Вернитесь из Google Play в личный кабинет, на страницу установки, и нажмите <strong>«Добавить подписку»</strong>.</p>
+      <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/03-install-happ.webp" alt="Кнопка «Добавить подписку» на странице установки Slon Privacy" loading="lazy">
+      <p>После нажатия «Добавить подписку» приложение Happ откроется автоматически. Дождитесь сообщения «Подписка SLON Privacy успешно обновлена». После этого появится список серверов.</p>
+    </div>
+  </section>
+
+  <section class="guide-step">
+    <div class="guide-step-number">4</div>
+    <div class="guide-step-content">
+      <h2>Подключитесь</h2>
+      <ul class="guide-simple-list">
+        <li>Выберите любой сервер в списке Happ.</li>
+        <li>Нажмите большую кнопку питания.</li>
+        <li>При первом запуске подтвердите системный запрос Android на создание VPN-подключения.</li>
+        <li>Дождитесь изменения статуса подключения.</li>
+      </ul>
+      <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/04-add-subscription.webp" alt="Список серверов и кнопка подключения в приложении Happ" loading="lazy">
+      <div class="guide-warning"><strong>Системный запрос Android — стандартная часть работы Happ.</strong> Без разрешения подключение не запустится.</div>
+    </div>
+  </section>
+
+  <div class="guide-success">
+    <strong>Готово!</strong> После подключения Happ можно свернуть — <strong>Slon Privacy</strong> продолжит работать в фоновом режиме.
+  </div>
+
+  <section class="guide-faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">Возможные проблемы</h2>
+
+    <details>
+      <summary>Happ не открывается после нажатия «Добавить подписку»</summary>
+      <p>Убедитесь, что приложение установлено. Закройте браузер и Happ, затем повторите импорт.</p>
+    </details>
+
+    <details>
+      <summary>Подписка добавилась, но серверов нет</summary>
+      <p>Нажмите кнопку обновления рядом с названием подписки. Если это не помогло, добавьте подписку повторно.</p>
+      <img class="guide-image guide-image-small" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/05-refresh-servers.webp" alt="Кнопка обновления серверов в Happ" loading="lazy">
+    </details>
+
+    <details>
+      <summary>Сервер не подключается</summary>
+      <p>Проверьте интернет без VPN, выберите другой сервер и убедитесь, что разрешение Android на создание VPN-подключения предоставлено.</p>
+      <p><strong>Если Android запросит разрешение на создание подключения — обязательно нажмите «Разрешить».</strong> Без этого подключение работать не будет.</p>
+    </details>
+
+    <details>
+      <summary>Google Play недоступен</summary>
+      <p>Используйте кнопку <strong>«Скачать APK»</strong> на официальной странице установки.</p>
+    </details>
+
+    <details>
+      <summary>Не получается использовать Happ?</summary>
+      <p>Попробуйте установить <a href="{{ site.baseurl }}/ru/knowledge-base/install/android/incy/"><strong>INCY</strong></a> — он совместим со Slon Privacy и может работать стабильнее на некоторых устройствах.</p>
+    </details>
+  </section>
+</div>
