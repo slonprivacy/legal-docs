@@ -12,45 +12,10 @@ permalink: /ru/knowledge/
 <h2 class="kb-section-title">Установка Slon Privacy</h2>
 <p class="kb-section-description">Выберите инструкцию для вашего устройства.</p>
 <div class="kb-links">
-<a class="kb-link kb-platform-link"
-   href="{{ site.baseurl }}/ru/knowledge/install/android/">
-  <img
-    class="kb-platform-icon"
-    src="{{ site.baseurl }}/assets/icons/platforms/android.svg"
-    alt=""
-    aria-hidden="true">
-  <span>Android</span>
-</a>
-
-<a class="kb-link kb-platform-link"
-   href="{{ site.baseurl }}/ru/knowledge/install/ios/">
-  <img
-    class="kb-platform-icon"
-    src="{{ site.baseurl }}/assets/icons/platforms/apple.svg"
-    alt=""
-    aria-hidden="true">
-  <span>iOS</span>
-</a>
-
-<a class="kb-link kb-platform-link"
-   href="{{ site.baseurl }}/ru/knowledge/install/windows/">
-  <img
-    class="kb-platform-icon"
-    src="{{ site.baseurl }}/assets/icons/platforms/windows.svg"
-    alt=""
-    aria-hidden="true">
-  <span>Windows</span>
-</a>
-
-<a class="kb-link kb-platform-link"
-   href="{{ site.baseurl }}/ru/knowledge/install/macos/">
-  <img
-    class="kb-platform-icon"
-    src="{{ site.baseurl }}/assets/icons/platforms/apple.svg"
-    alt=""
-    aria-hidden="true">
-  <span>macOS</span>
-</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/install/android/">Android</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/install/ios/">iOS</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/install/windows/">Windows</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/install/macos/">macOS</a>
 </div></section>
 
 <section class="kb-section">
