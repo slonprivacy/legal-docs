@@ -112,13 +112,106 @@ permalink: /ru/knowledge/install/android/
     </details>
   </section>
   </section>
+  
   <section id="incy-panel" class="app-tab-panel" role="tabpanel">
     <h2>INCY</h2>
-    <div class="article-placeholder"><strong>Место для инструкции.</strong><br>Добавьте ссылку на приложение, пошаговые действия, скриншоты и способ импорта подписки.</div>
-  </section>
-   <section id="v2ray-panel" class="app-tab-panel" role="tabpanel">
-    <h2>v2rayNG</h2>
-    <div class="article-placeholder"><strong>Место для инструкции.</strong><br>Добавьте ссылку на приложение, пошаговые действия, скриншоты и способ импорта подписки.</div>
+    <p><strong>Установите INCY, добавьте подписку Slon Privacy и подключитесь к серверу. Обычно настройка занимает не более 2–3 минут.</strong></p>
+
+    <div class="guide-note">
+      <strong>Перед началом</strong>
+      <p>Убедитесь, что подписка Slon Privacy активна, а телефон подключён к интернету.</p>
+      <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
+    </div>
+
+    <section class="guide-video-section" aria-labelledby="incy-video-title">
+      <h2 id="incy-video-title">Видеоинструкция</h2>
+      <p>Посмотрите весь процесс установки и подключения INCY на Android.</p>
+      <video class="guide-video" controls playsinline preload="metadata">
+        <source src="{{ site.baseurl }}/assets/video/knowledge-base/android/incy/android-INCY-install.mp4" type="video/mp4">
+        Ваш браузер не поддерживает воспроизведение видео.
+      </video>
+    </section>
+
+    <section class="guide-step">
+      <div class="guide-step-number">1</div>
+      <div class="guide-step-content">
+        <h2>Авторизируйтесь</h2>
+        <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или на сайте <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">my.slonprivacy.app</a>. Нажмите «Главная», затем нажмите «Подключить устройство».</p>
+        <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/01-connect-device.webp" alt="Кнопка «Подключить устройство» в личном кабинете Slon Privacy" loading="lazy">
+      </div>
+    </section>
+
+    <section class="guide-step">
+      <div class="guide-step-number">2</div>
+      <div class="guide-step-content">
+        <h2>Установите INCY</h2>
+        <p>Выберите устройство <strong>Android</strong> и приложение <strong>INCY</strong>.</p>
+        <p>Нажмите <strong>«Открыть в Google Play»</strong>. Если Google Play недоступен, используйте кнопку <strong>«Скачать APK»</strong>.</p>
+        <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/incy/02-select-android-INCY.webp" alt="Выбор Android и INCY на странице установки Slon Privacy" loading="lazy">
+        <p>Установите приложение <strong>INCY</strong>. Если оно уже установлено, будет показана кнопка «Открыть».</p>
+        <div class="guide-warning"><strong>Важно:</strong> APK следует устанавливать только с проверенных источников. Google Play является приоритетным способом установки.</div>
+      </div>
+    </section>
+
+    <section class="guide-step">
+      <div class="guide-step-number">3</div>
+      <div class="guide-step-content">
+        <h2>Добавьте подписку</h2>
+        <p>Вернитесь из Google Play в личный кабинет, на страницу установки, и нажмите <strong>«Добавить подписку»</strong>.</p>
+        <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/incy/04-add-subscription-INCY.webp" alt="Кнопка «Добавить подписку» на странице установки Slon Privacy" loading="lazy">
+        <p>После нажатия «Добавить подписку» приложение INCY откроется автоматически. Подписка <strong>SLON Privacy</strong> появится в приложении вместе со списком доступных серверов.</p>
+      </div>
+    </section>
+
+    <section class="guide-step">
+      <div class="guide-step-number">4</div>
+      <div class="guide-step-content">
+        <h2>Подключитесь</h2>
+        <ul class="guide-simple-list">
+          <li>Выберите любой сервер Slon Privacy.</li>
+          <li>Нажмите большую кнопку питания.</li>
+          <li>При первом запуске подтвердите системный запрос Android на создание VPN-подключения.</li>
+          <li>Дождитесь изменения статуса подключения.</li>
+        </ul>
+        <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/incy/06-connect-button-INCY.webp" alt="Кнопка подключения в приложении INCY" loading="lazy">
+        <div class="guide-warning"><strong>Системный запрос Android — стандартная часть работы INCY.</strong> Без разрешения подключение не запустится.</div>
+      </div>
+    </section>
+
+    <div class="guide-success">
+      <strong>Готово!</strong> После подключения INCY можно свернуть — <strong>Slon Privacy</strong> продолжит работать в фоновом режиме.
+    </div>
+
+    <section class="guide-faq" aria-labelledby="incy-faq-title">
+      <h2 id="incy-faq-title">Возможные проблемы</h2>
+
+      <details>
+        <summary>INCY не открывается после нажатия «Добавить подписку»</summary>
+        <p>Убедитесь, что приложение установлено. Закройте браузер и INCY, затем снова откройте страницу установки и повторите добавление подписки.</p>
+      </details>
+
+      <details>
+        <summary>Подписка добавилась, но серверов нет</summary>
+        <p>Нажмите кнопку обновления рядом с названием подписки <strong>SLON Privacy</strong>. Если список серверов не появился, добавьте подписку повторно из личного кабинета.</p>
+        <img class="guide-image guide-image-small" src="{{ site.baseurl }}/assets/img/knowledge-base/android/incy/06-connect-button-INCY.webp" alt="Кнопка обновления подписки в INCY" loading="lazy">
+      </details>
+
+      <details>
+        <summary>Сервер не подключается</summary>
+        <p>Проверьте интернет без VPN, выберите другой сервер и повторите подключение.</p>
+        <p>Убедитесь, что INCY получило разрешение Android на создание VPN-подключения. При появлении системного запроса нажмите <strong>«Разрешить»</strong>.</p>
+      </details>
+
+      <details>
+        <summary>Google Play недоступен</summary>
+        <p>Используйте кнопку <strong>«Скачать APK»</strong> на официальной странице установки Slon Privacy.</p>
+      </details>
+
+      <details>
+        <summary>INCY подключается, но сайты не открываются</summary>
+        <p>Отключитесь, выберите другой сервер и подключитесь снова. Также временно отключите другие VPN-приложения, частный DNS и программы, которые могут управлять сетевыми подключениями.</p>
+      </details>
+    </section>
   </section>
 </div>
 
