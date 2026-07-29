@@ -95,7 +95,6 @@ permalink: /ru/knowledge/about/what-is-slon-privacy/
 
 <div class="slon-article" markdown="1">
 
-# Что такое Slon Privacy
 
 <h2 class="slon-section-title" id="what-happens">
   <span class="slon-section-number">1</span>
