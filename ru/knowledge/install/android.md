@@ -136,7 +136,7 @@ permalink: /ru/knowledge/install/android/
       <div class="guide-step-number">1</div>
       <div class="guide-step-content">
         <h2>Авторизируйтесь</h2>
-        <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или на сайте <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">my.slonprivacy.app</a>. Нажмите «Главная», затем нажмите «Подключить устройство».</p>
+        <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или через <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайт</a>. Нажмите «Главная», затем нажмите «Подключить устройство».</p>
         <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/android/happ/01-connect-device.webp" alt="Кнопка «Подключить устройство» в личном кабинете Slon Privacy" loading="lazy">
       </div>
     </section>
