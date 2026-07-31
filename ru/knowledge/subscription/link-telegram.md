@@ -206,8 +206,6 @@ permalink: /ru/knowledge/subscription/link-telegram/
 
 <div class="slon-account-linking">
 
-<h1 class="slon-title">Как привязать Telegram и Email к аккаунту Slon Privacy</h1>
-
 <p class="slon-lead">
   Добавьте резервный способ входа, чтобы сохранить доступ к личному кабинету Slon Privacy, даже если Telegram или электронная почта временно недоступны.
 </p>
