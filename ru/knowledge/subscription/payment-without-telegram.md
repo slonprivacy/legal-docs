@@ -1,6 +1,7 @@
 ---
 title: "Telegram недоступен? Как войти в личный кабинет и оплатить подписку"
 description: "Что делать, если Telegram временно недоступен: вход через электронную почту, подключение прокси и восстановление доступа к Slon Privacy."
+permalink: /ru/knowledge/subscription/payment-without-telegram/
 ---
 
 <style>
@@ -185,7 +186,10 @@ description: "Что делать, если Telegram временно недос
 
 <div class="qr-caption">
   <strong>Или отсканируйте QR-код</strong>
-  <img class="qr" src="/assets/img/knowledge-base/subscription/telegram-unavailable/proxy-qr.webp" alt="QR-код для подключения прокси Slon Privacy">
+  <img
+  src="/assets/img/knowledge-base/subscription/payment-without-telegram/proxy-qr.webp"
+  alt="QR-код для подключения прокси Slon Privacy"
+>
 </div>
 
 </div>
