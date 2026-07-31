@@ -31,9 +31,8 @@ permalink: /ru/knowledge/
 <p class="kb-section-description">Подключение, оплата и управление подпиской.</p>
 <div class="kb-links">
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Как подписаться</a>
-<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/link-telegram/">Как привязать Telegram и аккаунт</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/link-telegram/">Как привязать Telegram и email</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/payment-without-telegram/">Оплата, если Telegram недоступен</a>
-<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/cancel-subscription/">Как отменить подписку</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/gift-subscription/">Как подарить подписку</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/referral-program/">Реферальная программа</a>
 </div></section>
