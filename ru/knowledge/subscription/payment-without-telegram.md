@@ -243,7 +243,7 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
 <div class="slon-intro-card">
   <strong>Главное</strong>
   <p>
-    Самый надёжный вариант — заранее привязать к аккаунту электронную почту. Тогда вход в личный кабинет и оплата подписки останутся доступны даже при проблемах с Telegram.
+    Самый надёжный вариант - заранее привязать к аккаунту электронную почту. Тогда вход в личный кабинет и оплата подписки останутся доступны даже при проблемах с Telegram.
   </p>
 </div>
 
@@ -253,12 +253,8 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
 </div>
 
 <p>
-  Если вы заранее привязали <strong>Email</strong> к профилю Slon Privacy, авторизуйтесь на сайте без использования Telegram.
+  Если вы заранее привязали <strong>Email</strong> к профилю Slon Privacy, авторизуйтесь на  <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайте</a> без использования Telegram.
 </p>
-
-<a class="slon-button" href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">
-  Открыть личный кабинет
-</a>
 
 <p>
   После входа вы сможете проверить подписку, продлить её или подключить новое устройство.
