@@ -447,11 +447,19 @@ a:hover {
 }
 
 /* === Knowledge Base: installation guide === */
-.guide-page {
-  --guide-accent-soft: rgba(126, 202, 179, 0.14);
+.guide-page,
+.kb-page {
+  --kb-accent-soft: rgba(126, 202, 179, 0.14);
+  --kb-accent-soft-strong: rgba(126, 202, 179, 0.22);
+  --kb-radius-sm: 10px;
+  --kb-radius: 14px;
+  --kb-radius-lg: 16px;
+  --kb-section-gap: 3rem;
 }
 
-.guide-app-badge {
+/* Shared aliases: old .guide-* and new .kb-* */
+.guide-app-badge,
+.kb-app-badge {
   display: inline-flex;
   align-items: center;
   padding: 0.4rem 0.75rem;
@@ -459,33 +467,45 @@ a:hover {
   border: 1px solid var(--accent);
   border-radius: 999px;
   color: var(--text-primary);
-  background: var(--guide-accent-soft);
+  background: var(--kb-accent-soft);
   font-size: 0.85rem;
   font-weight: 600;
 }
 
-.guide-lead { font-size: 1.05rem; }
+.guide-lead,
+.kb-lead {
+  font-size: 1.05rem;
+}
 
-.guide-tabs {
+.guide-tabs,
+.kb-tabs {
   display: flex;
   gap: 0.65rem;
   margin: 1.5rem 0 2rem;
   padding: 0.35rem;
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: var(--kb-radius);
   background: var(--code-bg);
 }
 
-.guide-tab {
+.guide-tab,
+.kb-tab {
   flex: 1;
   padding: 0.75rem 1rem;
-  border-radius: 10px;
+  border-radius: var(--kb-radius-sm);
   color: var(--text-secondary);
   text-align: center;
   font-weight: 600;
 }
-.guide-tab:hover { text-decoration: none; opacity: 1; }
-.guide-tab.is-active {
+
+.guide-tab:hover,
+.kb-tab:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.guide-tab.is-active,
+.kb-tab.is-active {
   color: var(--text-primary);
   background: var(--bg-primary);
   border: 1px solid var(--accent);
@@ -493,7 +513,10 @@ a:hover {
 
 .guide-note,
 .guide-warning,
-.guide-success {
+.guide-success,
+.kb-note,
+.kb-warning,
+.kb-success {
   margin: 1.5rem 0;
   padding: 1rem 1.15rem;
   border: 1px solid var(--border);
@@ -501,27 +524,47 @@ a:hover {
   border-radius: 12px;
   background: var(--code-bg);
 }
-.guide-note p { margin: 0.35rem 0; }
-.guide-success { font-size: 1.02rem; }
 
-.guide-video-section { margin-top: 2.5rem; }
-.guide-video {
+.guide-note p,
+.guide-warning p,
+.guide-success p,
+.kb-note p,
+.kb-warning p,
+.kb-success p {
+  margin: 0.35rem 0;
+}
+
+.guide-success,
+.kb-success {
+  font-size: 1.02rem;
+}
+
+.guide-video-section,
+.kb-video-section {
+  margin-top: 2.5rem;
+}
+
+.guide-video,
+.kb-video {
   display: block;
   width: 100%;
   max-height: 640px;
   margin-top: 1rem;
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: var(--kb-radius-lg);
   background: #000;
 }
 
-.guide-step {
+.guide-step,
+.kb-step {
   display: grid;
   grid-template-columns: 44px minmax(0, 1fr);
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: var(--kb-section-gap);
 }
-.guide-step-number {
+
+.guide-step-number,
+.kb-step-number {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -530,32 +573,50 @@ a:hover {
   border: 1px solid var(--accent);
   border-radius: 50%;
   color: var(--text-primary);
-  background: var(--guide-accent-soft);
+  background: var(--kb-accent-soft);
   font-weight: 700;
+  line-height: 1;
 }
-.guide-step-content h2 { margin-top: 0; }
 
-.guide-image {
+.guide-step-content,
+.kb-step-content {
+  min-width: 0;
+}
+
+.guide-step-content h2,
+.kb-step-content h2,
+.guide-step-title,
+.kb-step-title {
+  margin-top: 0;
+}
+
+.guide-image,
+.kb-image {
   display: block;
   width: auto;
   max-width: min(100%, 590px);
   max-height: 820px;
   margin: 1.25rem auto 1.75rem;
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: var(--kb-radius);
   object-fit: contain;
 }
-.guide-image-small {
+
+.guide-image-small,
+.kb-image-small {
   width: 100%;
   max-width: 520px;
   margin-bottom: 0.5rem;
 }
 
-.prose .guide-simple-list {
+.prose .guide-simple-list,
+.prose .kb-simple-list {
   list-style: disc;
   padding-left: 1.5rem;
 }
-.prose .guide-simple-list li a {
+
+.prose .guide-simple-list li a,
+.prose .kb-simple-list li a {
   display: inline;
   padding: 0;
   border: 0;
@@ -563,15 +624,22 @@ a:hover {
   font-weight: inherit;
 }
 
-.guide-faq { margin-top: 3.5rem; }
-.guide-faq details {
+.guide-faq,
+.kb-faq {
+  margin-top: 3.5rem;
+}
+
+.guide-faq details,
+.kb-faq details {
   margin-bottom: 0.75rem;
   border: 1px solid var(--border);
   border-radius: 12px;
   background: var(--bg-primary);
   overflow: hidden;
 }
-.guide-faq summary {
+
+.guide-faq summary,
+.kb-faq summary {
   position: relative;
   padding: 1rem 3rem 1rem 1.1rem;
   cursor: pointer;
@@ -579,8 +647,14 @@ a:hover {
   font-weight: 600;
   list-style: none;
 }
-.guide-faq summary::-webkit-details-marker { display: none; }
-.guide-faq summary::after {
+
+.guide-faq summary::-webkit-details-marker,
+.kb-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.guide-faq summary::after,
+.kb-faq summary::after {
   content: "+";
   position: absolute;
   right: 1.1rem;
@@ -589,16 +663,87 @@ a:hover {
   color: var(--accent);
   font-size: 1.4rem;
 }
-.guide-faq details[open] summary::after { content: "−"; }
+
+.guide-faq details[open] summary::after,
+.kb-faq details[open] summary::after {
+  content: "−";
+}
+
 .guide-faq details > p,
-.guide-faq details > img {
+.guide-faq details > img,
+.kb-faq details > p,
+.kb-faq details > img {
   margin-left: 1.1rem;
   margin-right: 1.1rem;
 }
-.guide-faq details > p:last-child { margin-bottom: 1.1rem; }
+
+.guide-faq details > p:last-child,
+.kb-faq details > p:last-child {
+  margin-bottom: 1.1rem;
+}
+
+/* Colored-dot list for informational articles */
+.prose .kb-dot-list,
+.prose .guide-dot-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose .kb-dot-list > li,
+.prose .guide-dot-list > li {
+  position: relative;
+  padding-left: 1.35rem;
+}
+
+.prose .kb-dot-list > li::before,
+.prose .guide-dot-list > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Prevent generic .prose card-link styling inside article lists */
+.prose .guide-page .guide-simple-list li a,
+.prose .guide-page .guide-dot-list li a,
+.prose .kb-page .kb-simple-list li a,
+.prose .kb-page .kb-dot-list li a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--link-color);
+  font-weight: inherit;
+  transform: none;
+}
 
 @media (max-width: 600px) {
-  .guide-step { grid-template-columns: 34px minmax(0, 1fr); gap: 0.75rem; }
-  .guide-step-number { width: 32px; height: 32px; }
-  .guide-tabs { flex-direction: column; }
+  .guide-step,
+  .kb-step {
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .guide-step-number,
+  .kb-step-number {
+    width: 32px;
+    height: 32px;
+  }
+
+  .guide-tabs,
+  .kb-tabs {
+    flex-direction: column;
+  }
+
+  .guide-image,
+  .kb-image {
+    max-height: none;
+  }
 }
