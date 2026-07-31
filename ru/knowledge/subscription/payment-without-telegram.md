@@ -241,6 +241,45 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
   background: #fff;
   padding: 10px;
 }
+  .slon-telegram-unavailable .slon-qr-details {
+  margin: 1rem 0;
+  border: 1px solid rgba(85, 203, 184, 0.42);
+  border-radius: 0.85rem;
+  background: rgba(85, 203, 184, 0.06);
+  overflow: hidden;
+}
+
+.slon-telegram-unavailable .slon-qr-details summary {
+  padding: 1rem 1.15rem;
+  cursor: pointer;
+  color: var(--slon-accent-dark);
+  font-weight: 700;
+  user-select: none;
+}
+
+.slon-telegram-unavailable .slon-qr-details summary:hover {
+  background: rgba(85, 203, 184, 0.1);
+}
+
+.slon-telegram-unavailable .slon-qr-content {
+  padding: 0 1.15rem 1.15rem;
+}
+
+.slon-telegram-unavailable .slon-qr-content p {
+  margin-top: 0;
+}
+
+.slon-telegram-unavailable .slon-qr-image {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto 0;
+  padding: 8px;
+  border: 1px solid var(--slon-border);
+  border-radius: 0.75rem;
+  background: #fff;
+}
 }
 </style>
 
@@ -303,20 +342,21 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
   </a>
 </div>
 
-<div class="slon-proxy-card">
-  <h3>Подключение по QR-коду</h3>
+<details class="slon-qr-details">
+  <summary>Показать QR-код</summary>
 
-  <p>
-    Если вы открыли эту инструкцию с другого устройства, просто наведите камеру телефона на QR-код.
-  </p>
+  <div class="slon-qr-content">
+    <p>
+      Отсканируйте QR-код камерой телефона, чтобы подключить прокси в Telegram.
+    </p>
 
-  <img
-    src="{{ site.baseurl }}/assets/img/knowledge-base/subscription/telegram-unavailable/proxy-qr.webp"
-    alt="QR-код для подключения MTProto-прокси Slon Privacy"
-    class="slon-qr-image"
-    loading="lazy"
-  >
-</div>
+    <img
+      src="{{ site.baseurl }}/assets/img/knowledge-base/subscription/telegram-unavailable/telegram-proxy-qr.webp"
+      alt="QR-код для подключения прокси Slon Privacy"
+      class="slon-qr-image"
+      loading="lazy">
+  </div>
+</details>
 
 <div class="slon-recommendation">
   <strong>Важно</strong>
