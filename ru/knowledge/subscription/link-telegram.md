@@ -16,6 +16,10 @@ permalink: /ru/knowledge/subscription/link-telegram/
   color: var(--slon-text);
 }
 
+.slon-account-linking .slon-title {
+  margin-bottom: 0.8rem;
+}
+
 .slon-account-linking .slon-lead {
   margin: 0.8rem 0 1.8rem;
   font-size: 1.08rem;
@@ -29,11 +33,7 @@ permalink: /ru/knowledge/subscription/link-telegram/
   padding: 1.25rem 1.35rem;
   border: 1px solid rgba(85, 203, 184, 0.42);
   border-radius: 1rem;
-  background: linear-gradient(
-    135deg,
-    rgba(85, 203, 184, 0.14),
-    rgba(85, 203, 184, 0.05)
-  );
+  background: linear-gradient(135deg, rgba(85, 203, 184, 0.14), rgba(85, 203, 184, 0.05));
 }
 
 .slon-account-linking .slon-intro-card p:last-child,
@@ -47,7 +47,6 @@ permalink: /ru/knowledge/subscription/link-telegram/
   align-items: center;
   gap: 1rem;
   margin: 2.8rem 0 1.2rem;
-  scroll-margin-top: 6rem;
 }
 
 .slon-account-linking .slon-section-number {
@@ -66,28 +65,23 @@ permalink: /ru/knowledge/subscription/link-telegram/
   line-height: 1;
 }
 
-.slon-account-linking .slon-section-title-text {
-  display: block;
-  min-width: 0;
-}
-
-.slon-account-linking .slon-section-title-text h2 {
+.slon-account-linking .slon-section-title h2 {
   margin: 0;
 }
 
-.slon-account-linking ul {
+.slon-account-linking .slon-benefits {
   list-style: none;
   padding-left: 0;
   margin: 1rem 0 1.4rem;
 }
 
-.slon-account-linking ul li {
+.slon-account-linking .slon-benefits li {
   position: relative;
   padding-left: 1.45rem;
   margin: 0.62rem 0;
 }
 
-.slon-account-linking ul li::before {
+.slon-account-linking .slon-benefits li::before {
   content: "";
   position: absolute;
   left: 0.15rem;
@@ -133,12 +127,11 @@ permalink: /ru/knowledge/subscription/link-telegram/
   color: #fff;
   font-size: 0.86rem;
   font-weight: 700;
-  box-shadow: none;
-  transform: none;
 }
 
 .slon-account-linking .slon-video-wrap {
-  margin: 1.6rem 0 0.5rem;
+  margin: 1.6rem auto 0.5rem;
+  max-width: 480px;
   overflow: hidden;
   border: 1px solid var(--slon-border);
   border-radius: 1rem;
@@ -155,7 +148,8 @@ permalink: /ru/knowledge/subscription/link-telegram/
 }
 
 .slon-account-linking .slon-video-note {
-  margin-top: 0.7rem;
+  margin: 0.7rem auto 0;
+  max-width: 480px;
   color: var(--slon-muted);
   font-size: 0.92rem;
   line-height: 1.55;
@@ -168,12 +162,6 @@ permalink: /ru/knowledge/subscription/link-telegram/
 .slon-account-linking .slon-recommendation strong,
 .slon-account-linking .slon-final-card strong {
   color: var(--slon-accent-dark);
-}
-
-.slon-account-linking hr {
-  margin: 2.5rem 0;
-  border: 0;
-  border-top: 1px solid var(--slon-border);
 }
 
 @media (max-width: 640px) {
@@ -201,10 +189,6 @@ permalink: /ru/knowledge/subscription/link-telegram/
     font-size: 0.95rem;
   }
 
-  .slon-account-linking .slon-section-title-text {
-    padding-top: 0.2rem;
-  }
-
   .slon-account-linking .slon-steps li {
     padding: 0.9rem 0.9rem 0.9rem 3.25rem;
   }
@@ -222,47 +206,53 @@ permalink: /ru/knowledge/subscription/link-telegram/
 
 <div class="slon-account-linking">
 
-# Как привязать Telegram и Email к аккаунту Slon Privacy
+<h1 class="slon-title">Как привязать Telegram и Email к аккаунту Slon Privacy</h1>
 
 <p class="slon-lead">
-Добавьте резервный способ входа, чтобы сохранить доступ к личному кабинету Slon Privacy, даже если Telegram или электронная почта временно недоступны.
+  Добавьте резервный способ входа, чтобы сохранить доступ к личному кабинету Slon Privacy, даже если Telegram или электронная почта временно недоступны.
 </p>
 
 <div class="slon-intro-card">
-<strong>Зачем это нужно?</strong>
-<p>
-Привязка Telegram и Email повышает безопасность аккаунта и дает дополнительный способ авторизации. Если один из способов входа окажется заблокирован или временно недоступен, вы сможете воспользоваться вторым.
-</p>
+  <strong>Зачем это нужно?</strong>
+  <p>
+    Привязка Telegram и Email повышает безопасность аккаунта и дает дополнительный способ авторизации. Если один из способов входа окажется заблокирован или временно недоступен, вы сможете воспользоваться вторым.
+  </p>
 </div>
 
 <div class="slon-section-title">
   <span class="slon-section-number">1</span>
-  <span class="slon-section-title-text"><h2>Зачем привязывать Telegram и Email</h2></span>
+  <h2>Зачем привязывать Telegram и Email</h2>
 </div>
 
-Иногда доступ к **Telegram** может быть временно ограничен или недоступен. Аналогично могут возникнуть проблемы с доступом к **электронной почте**.
+<p>
+  Иногда доступ к <strong>Telegram</strong> может быть временно ограничен или недоступен. Аналогично могут возникнуть проблемы с доступом к <strong>электронной почте</strong>.
+</p>
 
-Чтобы вы всегда могли войти в аккаунт Slon Privacy и управлять подпиской, рекомендуем заранее привязать **оба способа авторизации** — Telegram и Email.
+<p>
+  Чтобы вы всегда могли войти в аккаунт Slon Privacy и управлять подпиской, рекомендуем заранее привязать <strong>оба способа авторизации</strong> — Telegram и Email.
+</p>
 
-Это позволит:
+<p>Это позволит:</p>
 
-- сохранить доступ к аккаунту при недоступности одного из способов входа;
-- быстрее восстановить доступ при возникновении проблем;
-- безопасно управлять подпиской с любого устройства.
+<ul class="slon-benefits">
+  <li>сохранить доступ к аккаунту при недоступности одного из способов входа;</li>
+  <li>быстрее восстановить доступ при возникновении проблем;</li>
+  <li>безопасно управлять подпиской с любого устройства.</li>
+</ul>
 
 <div class="slon-recommendation">
-<strong>Рекомендуем</strong>
-<p>
-Если вы зарегистрировались через <strong>Telegram</strong>, обязательно привяжите <strong>Email</strong>. Если вы зарегистрировались через <strong>Email</strong>, обязательно привяжите <strong>Telegram</strong>.
-</p>
+  <strong>Рекомендуем</strong>
+  <p>
+    Если вы зарегистрировались через <strong>Telegram</strong>, обязательно привяжите <strong>Email</strong>. Если вы зарегистрировались через <strong>Email</strong>, обязательно привяжите <strong>Telegram</strong>.
+  </p>
 </div>
 
 <div class="slon-section-title">
   <span class="slon-section-number">2</span>
-  <span class="slon-section-title-text"><h2>Как привязать второй способ входа</h2></span>
+  <h2>Как привязать второй способ входа</h2>
 </div>
 
-Следуйте видеоинструкции или выполните несколько простых шагов:
+<p>Следуйте видеоинструкции или выполните несколько простых шагов:</p>
 
 <ol class="slon-steps">
   <li>Перейдите в <strong>Профиль</strong> → <strong>Привязанные аккаунты</strong>.</li>
@@ -273,29 +263,33 @@ permalink: /ru/knowledge/subscription/link-telegram/
 
 <div class="slon-video-wrap">
   <video controls playsinline preload="metadata">
-    <source src="/assets/video/knowledge-base/subscription/link-telegram-email.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/knowledge-base/subscription/link-telegram-email.mp4' | relative_url }}" type="video/mp4">
     Ваш браузер не поддерживает воспроизведение видео.
   </video>
 </div>
 
 <p class="slon-video-note">
-Если видео не запускается, откройте страницу в другом браузере или обновите ее.
+  Видео загружается непосредственно с сайта Slon Privacy.
 </p>
 
 <div class="slon-section-title">
   <span class="slon-section-number">3</span>
-  <span class="slon-section-title-text"><h2>После привязки</h2></span>
+  <h2>После привязки</h2>
 </div>
 
-После успешной привязки вы сможете входить в личный кабинет **как через Telegram, так и через Email**.
+<p>
+  После успешной привязки вы сможете входить в личный кабинет <strong>как через Telegram, так и через Email</strong>.
+</p>
 
-Если один из способов входа окажется временно недоступен, вы сможете воспользоваться вторым без потери доступа к подписке, настройкам и управлению аккаунтом.
+<p>
+  Если один из способов входа окажется временно недоступен, вы сможете воспользоваться вторым без потери доступа к подписке, настройкам и управлению аккаунтом.
+</p>
 
 <div class="slon-final-card">
-<strong>Совет</strong>
-<p>
-Привяжите оба способа авторизации сразу после регистрации. Это займет всего несколько минут и поможет избежать проблем с доступом к аккаунту в будущем.
-</p>
+  <strong>Совет</strong>
+  <p>
+    Привяжите оба способа авторизации сразу после регистрации. Это займет всего несколько минут и поможет избежать проблем с доступом к аккаунту в будущем.
+  </p>
 </div>
 
 </div>
