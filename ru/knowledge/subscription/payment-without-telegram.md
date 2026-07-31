@@ -351,7 +351,7 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
     </p>
 
     <img
-      src="{{ site.baseurl }}/assets/img/knowledge-base/subscription/telegram-unavailable/telegram-proxy-qr.webp"
+      src="{{ site.baseurl }}/assets/img/knowledge-base/subscription/telegram-unavailable/proxy-qr.webp"
       alt="QR-код для подключения прокси Slon Privacy"
       class="slon-qr-image"
       loading="lazy">
