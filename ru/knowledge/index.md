@@ -24,7 +24,6 @@ permalink: /ru/knowledge/
 <div class="kb-links">
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/about/what-is-slon-privacy/">Что такое Slon Privacy</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/about/locations/">Список локаций</a>
-<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/about/mission-and-history/">Цель, миссия и история</a>
 </div></section>
 
 <section class="kb-section">
