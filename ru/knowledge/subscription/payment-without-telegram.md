@@ -187,8 +187,8 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
 <div class="qr-caption">
   <strong>Или отсканируйте QR-код</strong>
   <img
-  src="/assets/img/knowledge-base/subscription/payment-without-telegram/proxy-qr.webp"
-  alt="QR-код для подключения прокси Slon Privacy"
+  src="/assets/img/knowledge-base/subscription/telegram-unavailable/proxy-qr.webp"
+  alt="QR-код для подключения прокси Slon Privacy" 
 >
 </div>
 
