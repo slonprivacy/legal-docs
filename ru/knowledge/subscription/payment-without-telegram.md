@@ -1,94 +1,174 @@
 ---
-title: "Telegram недоступен? Как войти в личный кабинет и оплатить подписку"
-description: "Что делать, если Telegram временно недоступен: вход через электронную почту, подключение прокси и восстановление доступа к Slon Privacy."
+layout: default
+title: Telegram недоступен? Как войти в личный кабинет и оплатить подписку
+lang: ru
 permalink: /ru/knowledge/subscription/payment-without-telegram/
 ---
 
 <style>
 .slon-telegram-unavailable {
-  --slon-accent: #19b9aa;
-  --slon-accent-hover: #139c90;
-  --slon-soft: rgba(25, 185, 170, 0.09);
-  --slon-border: rgba(25, 185, 170, 0.28);
-  max-width: 860px;
-  margin: 0 auto;
+  --slon-accent: #55cbb8;
+  --slon-accent-dark: #249f90;
+  --slon-accent-soft: rgba(85, 203, 184, 0.12);
+  --slon-text: #253b52;
+  --slon-muted: #66788a;
+  --slon-border: rgba(37, 59, 82, 0.11);
+  color: var(--slon-text);
 }
 
-.slon-telegram-unavailable * {
-  box-sizing: border-box;
-}
-
-.slon-telegram-unavailable .lead {
-  margin-bottom: 2rem;
+.slon-telegram-unavailable .slon-lead {
+  margin: 0.8rem 0 1.8rem;
   font-size: 1.08rem;
   line-height: 1.75;
 }
 
-.slon-telegram-unavailable .step-title {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-  margin: 2.5rem 0 1rem;
+.slon-telegram-unavailable .slon-intro-card,
+.slon-telegram-unavailable .slon-proxy-card,
+.slon-telegram-unavailable .slon-recommendation,
+.slon-telegram-unavailable .slon-final-card {
+  margin: 1.4rem 0;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid rgba(85, 203, 184, 0.42);
+  border-radius: 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(85, 203, 184, 0.14),
+    rgba(85, 203, 184, 0.05)
+  );
 }
 
-.slon-telegram-unavailable .step-number {
+.slon-telegram-unavailable .slon-intro-card p:last-child,
+.slon-telegram-unavailable .slon-proxy-card p:last-child,
+.slon-telegram-unavailable .slon-recommendation p:last-child,
+.slon-telegram-unavailable .slon-final-card p:last-child {
+  margin-bottom: 0;
+}
+
+.slon-telegram-unavailable .slon-section-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.8rem 0 1.2rem;
+}
+
+.slon-telegram-unavailable .slon-section-number {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
-  flex: 0 0 38px;
+  flex: 0 0 3rem;
+  width: 3rem;
+  height: 3rem;
+  border: 1.5px solid var(--slon-accent);
   border-radius: 50%;
-  background: var(--slon-accent);
-  color: #fff;
-  font-weight: 800;
+  color: var(--slon-accent-dark);
+  background: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
-.slon-telegram-unavailable .step-title h2 {
+.slon-telegram-unavailable .slon-section-title h2 {
   margin: 0;
-  font-size: 1.35rem;
-  line-height: 1.35;
 }
 
 .slon-telegram-unavailable .slon-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 48px;
+  min-height: 46px;
   margin: 0.7rem 0;
-  padding: 0.8rem 1.15rem;
-  border-radius: 12px;
+  padding: 0.78rem 1.15rem;
+  border: 1px solid var(--slon-accent);
+  border-radius: 0.8rem;
   background: var(--slon-accent);
   color: #fff !important;
+  text-align: center;
   text-decoration: none !important;
   font-weight: 700;
-  text-align: center;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .slon-telegram-unavailable .slon-button:hover {
-  background: var(--slon-accent-hover);
+  border-color: var(--slon-accent-dark);
+  background: var(--slon-accent-dark);
+  transform: translateY(-1px);
 }
 
-.slon-telegram-unavailable .proxy-card {
-  margin: 1.25rem 0;
-  padding: 1.25rem;
+.slon-telegram-unavailable .slon-benefits {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0 1.4rem;
+}
+
+.slon-telegram-unavailable .slon-benefits li {
+  position: relative;
+  padding-left: 1.45rem;
+  margin: 0.62rem 0;
+}
+
+.slon-telegram-unavailable .slon-benefits li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.72em;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  background: var(--slon-accent);
+  transform: translateY(-50%);
+  box-shadow: 0 0 0 4px var(--slon-accent-soft);
+}
+
+.slon-telegram-unavailable .slon-steps {
+  counter-reset: slon-step;
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 1.8rem;
+}
+
+.slon-telegram-unavailable .slon-steps li {
+  counter-increment: slon-step;
+  position: relative;
+  margin: 0 0 0.85rem;
+  padding: 1rem 1rem 1rem 3.55rem;
   border: 1px solid var(--slon-border);
-  border-radius: 16px;
-  background: var(--slon-soft);
+  border-radius: 0.85rem;
+  background: rgba(255, 255, 255, 0.62);
+  line-height: 1.65;
 }
 
-.slon-telegram-unavailable .proxy-card h3 {
+.slon-telegram-unavailable .slon-steps li::before {
+  content: counter(slon-step);
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--slon-accent);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.slon-telegram-unavailable .slon-proxy-card h3 {
   margin-top: 0;
 }
 
-.slon-telegram-unavailable .proxy-link {
+.slon-telegram-unavailable .slon-proxy-link {
   display: block;
   overflow-wrap: anywhere;
-  margin: 0.75rem 0 1.25rem;
+  margin: 0.75rem 0 0;
   padding: 0.9rem 1rem;
   border: 1px solid var(--slon-border);
-  border-radius: 10px;
-  background: rgba(255,255,255,.72);
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.68);
   color: inherit;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.86rem;
@@ -96,45 +176,46 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
   text-decoration: none;
 }
 
-.slon-telegram-unavailable .qr {
-  display: block;
-  width: min(100%, 320px);
-  height: auto;
-  margin: 0.8rem auto 0;
-  padding: 10px;
-  border-radius: 16px;
-  background: #fff;
-}
-
-.slon-telegram-unavailable .qr-caption {
-  margin-top: 1.25rem;
-  text-align: center;
-}
-
-.slon-telegram-unavailable .note {
-  margin-top: 2.5rem;
-  padding: 1.15rem 1.25rem;
+.slon-telegram-unavailable .slon-recommendation {
   border-left: 4px solid var(--slon-accent);
-  border-radius: 12px;
-  background: var(--slon-soft);
 }
 
-.slon-telegram-unavailable .note strong {
-  display: block;
-  margin-bottom: 0.35rem;
+.slon-telegram-unavailable .slon-recommendation strong,
+.slon-telegram-unavailable .slon-final-card strong,
+.slon-telegram-unavailable .slon-intro-card strong {
+  color: var(--slon-accent-dark);
 }
 
-.slon-telegram-unavailable li {
-  margin: 0.55rem 0;
+.slon-telegram-unavailable .slon-muted {
+  color: var(--slon-muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
 }
 
 @media (max-width: 640px) {
-  .slon-telegram-unavailable .step-title {
-    align-items: flex-start;
+  .slon-telegram-unavailable .slon-lead {
+    font-size: 1rem;
   }
 
-  .slon-telegram-unavailable .step-title h2 {
-    font-size: 1.2rem;
+  .slon-telegram-unavailable .slon-intro-card,
+  .slon-telegram-unavailable .slon-proxy-card,
+  .slon-telegram-unavailable .slon-recommendation,
+  .slon-telegram-unavailable .slon-final-card {
+    padding: 1.1rem;
+    border-radius: 0.85rem;
+  }
+
+  .slon-telegram-unavailable .slon-section-title {
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-top: 2.2rem;
+  }
+
+  .slon-telegram-unavailable .slon-section-number {
+    flex-basis: 2.55rem;
+    width: 2.55rem;
+    height: 2.55rem;
+    font-size: 0.95rem;
   }
 
   .slon-telegram-unavailable .slon-button {
@@ -142,75 +223,113 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
     width: 100%;
   }
 
-  .slon-telegram-unavailable .proxy-card {
-    padding: 1rem;
+  .slon-telegram-unavailable .slon-steps li {
+    padding: 0.9rem 0.9rem 0.9rem 3.25rem;
+  }
+
+  .slon-telegram-unavailable .slon-steps li::before {
+    left: 0.85rem;
+    top: 0.9rem;
   }
 }
 </style>
 
 <div class="slon-telegram-unavailable">
 
-# Telegram недоступен? Как войти в личный кабинет и оплатить подписку
-
-<p class="lead">
-Если доступ к Telegram и личному кабинету через Telegram временно недоступен, воспользуйтесь одним из способов ниже.
+<p class="slon-lead">
+  Если Telegram временно недоступен, вы всё равно можете войти в личный кабинет Slon Privacy, управлять подпиской и восстановить доступ одним из способов ниже.
 </p>
 
-<div class="step-title">
-  <span class="step-number">1</span>
+<div class="slon-intro-card">
+  <strong>Главное</strong>
+  <p>
+    Самый надёжный вариант — заранее привязать к аккаунту электронную почту. Тогда вход в личный кабинет и оплата подписки останутся доступны даже при проблемах с Telegram.
+  </p>
+</div>
+
+<div class="slon-section-title">
+  <span class="slon-section-number">1</span>
   <h2>Войдите через электронную почту</h2>
 </div>
 
-Если вы заранее привязали электронную почту к профилю Slon Privacy, авторизуйтесь на сайте без Telegram.
+<p>
+  Если вы заранее привязали <strong>Email</strong> к профилю Slon Privacy, авторизуйтесь на сайте без использования Telegram.
+</p>
 
-<a class="slon-button" href="https://my.slonprivacy.app/login">Открыть личный кабинет</a>
+<a class="slon-button" href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">
+  Открыть личный кабинет
+</a>
 
-Подробнее: [Как привязать Telegram и электронную почту](/ru/knowledge/subscription/link-telegram/).
+<p>
+  После входа вы сможете проверить подписку, продлить её или подключить новое устройство.
+</p>
 
-<div class="step-title">
-  <span class="step-number">2</span>
-  <h2>Подключите прокси для доступа к Telegram</h2>
+<p>
+  Подробнее: <a href="/ru/knowledge/subscription/link-telegram/">как привязать Telegram и электронную почту</a>.
+</p>
+
+<div class="slon-section-title">
+  <span class="slon-section-number">2</span>
+  <h2>Подключите прокси для Telegram</h2>
 </div>
 
-Если электронная почта ещё не привязана, подключите наш MTProto-прокси и попробуйте открыть Telegram.
+<p>
+  Если электронная почта ещё не привязана, попробуйте восстановить доступ к Telegram через MTProto-прокси Slon Privacy.
+</p>
 
-<div class="proxy-card">
+<div class="slon-proxy-card">
+  <h3>Подключение прокси</h3>
 
-<h3>Подключение прокси</h3>
+  <p>
+    Нажмите кнопку ниже. Если Telegram установлен на устройстве, приложение предложит добавить прокси автоматически.
+  </p>
 
-<a class="slon-button" href="tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3">Подключить прокси в Telegram</a>
+  <a class="slon-button" href="tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3">
+    Подключить прокси в Telegram
+  </a>
 
-Если Telegram не реагирует на кнопку, откройте ссылку вручную:
+  <p class="slon-muted">
+    Если кнопка не сработала, скопируйте и откройте ссылку вручную:
+  </p>
 
-<a class="proxy-link" href="tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3">tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3</a>
-
-<div class="qr-caption">
-  <strong>Или отсканируйте QR-код</strong>
-  <img
-  src="/assets/img/knowledge-base/subscription/telegram-unavailable/proxy-qr.webp"
-  alt="QR-код для подключения прокси Slon Privacy" 
->
+  <a class="slon-proxy-link" href="tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3">
+    tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3
+  </a>
 </div>
 
+<div class="slon-recommendation">
+  <strong>Важно</strong>
+  <p>
+    Прокси помогает открыть Telegram, но не заменяет привязку Email. После восстановления доступа рекомендуем сразу добавить резервный способ входа.
+  </p>
 </div>
 
-<div class="step-title">
-  <span class="step-number">3</span>
-  <h2>Если прокси недоступен</h2>
+<div class="slon-section-title">
+  <span class="slon-section-number">3</span>
+  <h2>Если прокси не помог</h2>
 </div>
 
-Если подключиться к Telegram через прокси не удалось:
+<p>
+  Создайте или откройте аккаунт через электронную почту и используйте Slon Privacy для восстановления доступа к Telegram.
+</p>
 
-1. Авторизуйтесь в личном кабинете через электронную почту.
-2. Активируйте бесплатную пробную подписку на **3 дня**.
-3. Используйте Slon Privacy для восстановления доступа к Telegram.
-4. После входа объедините аккаунты.
+<ol class="slon-steps">
+  <li>Откройте личный кабинет и авторизуйтесь через <strong>Email</strong>.</li>
+  <li>Активируйте бесплатную пробную подписку на <strong>3 дня</strong>, если она ещё доступна для аккаунта.</li>
+  <li>Установите Slon Privacy и подключитесь к серверу.</li>
+  <li>Откройте Telegram и восстановите доступ к своему аккаунту.</li>
+  <li>После входа привяжите Telegram и Email к одному аккаунту.</li>
+</ol>
 
-Подробнее: [Как привязать Telegram и электронную почту](/ru/knowledge/subscription/link-telegram/).
+<p>
+  Инструкция: <a href="/ru/knowledge/subscription/link-telegram/">как объединить Telegram и Email</a>.
+</p>
 
-<div class="note">
-  <strong>Рекомендуем заранее привязать электронную почту</strong>
-  Это позволит войти в личный кабинет и оплатить подписку даже при временной недоступности Telegram.
+<div class="slon-final-card">
+  <strong>Совет</strong>
+  <p>
+    Привяжите Telegram и Email сразу после регистрации. Это поможет сохранить доступ к личному кабинету, подписке и настройкам независимо от временных ограничений одного из способов входа.
+  </p>
 </div>
 
 </div>
