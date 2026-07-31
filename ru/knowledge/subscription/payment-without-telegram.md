@@ -231,6 +231,16 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
     left: 0.85rem;
     top: 0.9rem;
   }
+  .slon-telegram-unavailable .slon-qr-image {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  margin: 1.2rem auto 0;
+  border-radius: 12px;
+  border: 1px solid var(--slon-border);
+  background: #fff;
+  padding: 10px;
+}
 }
 </style>
 
@@ -291,6 +301,21 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
   <a class="slon-proxy-link" href="tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3">
     tg://proxy?server=130.49.185.95&amp;port=33443&amp;secret=2d52f5754605c47237b483cd092be6b3
   </a>
+</div>
+
+<div class="slon-proxy-card">
+  <h3>Подключение по QR-коду</h3>
+
+  <p>
+    Если вы открыли эту инструкцию с другого устройства, просто наведите камеру телефона на QR-код.
+  </p>
+
+  <img
+    src="{{ site.baseurl }}/assets/img/knowledge-base/subscription/telegram-unavailable/proxy-qr.webp"
+    alt="QR-код для подключения MTProto-прокси Slon Privacy"
+    class="slon-qr-image"
+    loading="lazy"
+  >
 </div>
 
 <div class="slon-recommendation">
