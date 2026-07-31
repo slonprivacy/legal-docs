@@ -110,7 +110,7 @@ permalink: /ru/knowledge/install/windows/
     <div class="guide-note">
       <strong>Перед началом</strong>
       <p>Убедитесь, что подписка Slon Privacy активна, а компьютер подключён к интернету.</p>
-      <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
+      <a href="https://legal.slonprivacy.app/ru/knowledge/subscription/how-to-subscribe/" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
     </div>
 
     <section class="guide-step">
