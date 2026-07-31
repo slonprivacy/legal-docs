@@ -20,7 +20,7 @@ permalink: /ru/knowledge/install/macos/
     <div class="guide-step-number">1</div>
     <div class="guide-step-content">
       <h2>Скачайте INCY</h2>
-      <p>  <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или через <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайт</a>. Нажмите «Главная», затем нажмите «Подключить устройство».</p> Выберите <strong>macOS</strong>.</p>
+       <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или через <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайт</a>. Нажмите «Главная», затем нажмите «Подключить устройство».</p> Выберите <strong>macOS</strong>.</p>
       <p>Выберите подходящий способ установки:</p>
       <ul class="guide-simple-list">
         <li><strong>App Store</strong> — рекомендуется большинству пользователей.</li>
