@@ -23,11 +23,8 @@ permalink: /ru/knowledge/troubleshooting/russian-services/
     <div class="guide-step-content">
       <h2>Выберите подходящую локацию</h2>
       <p>Для российских сервисов рекомендуем использовать локации Slon Privacy, на которых работают все или большинство российских сайтов и приложений.</p>
-
   <p>Например, попробуйте сервер с обозначением <strong>RU → ND</strong>.</p>
 </div>
-
-
   </section>
 
   <section class="guide-step">
