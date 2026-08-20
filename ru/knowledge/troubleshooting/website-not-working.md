@@ -1,11 +1,9 @@
 ---
-
 layout: default
 title: Не работает сайт с подключённым Slon Privacy
 lang: ru
 permalink: /ru/knowledge/troubleshooting/website-not-working/
--------------------------------------------------------------
-
+---
 {% include knowledge-styles.html %}
 
 <section class="app-tab-panel is-active">
