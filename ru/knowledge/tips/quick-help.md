@@ -6,7 +6,7 @@ permalink: /ru/knowledge/tips/quick-help/
 ---
 {% include knowledge-styles.html %}
 
-<section class="app-tab-panel is-active" aria-labelledby="quick-help-title">
+<section class="app-tab-panel is-active">
   <p><strong>Короткие решения частых проблем с подключением Slon Privacy на Android и iOS.</strong></p>
 
   <section class="guide-faq" aria-labelledby="general-questions-title">
