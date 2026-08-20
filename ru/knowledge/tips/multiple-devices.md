@@ -6,7 +6,7 @@ permalink: /ru/knowledge/tips/multiple-devices/
 ---
 {% include knowledge-styles.html %}
 
-<section class="app-tab-panel is-active" aria-labelledby="multi-device-title">
+<section class="app-tab-panel is-active">
   <p><strong>Slon Privacy можно использовать на компьютере, телефоне и планшете, а также настроить на устройствах близких. Одна подписка позволяет подключить до 3 устройств.</strong></p>
 
   <div class="guide-note">
