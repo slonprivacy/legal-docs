@@ -50,6 +50,6 @@ permalink: /ru/knowledge/
 <div class="kb-links">
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/troubleshooting/website-not-working/">Не работает сайт со Slon Privacy</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/troubleshooting/russian-services/">Не открываются российские сервисы</a>
-<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/troubleshooting/chatgpt/">Не работает ChatGPT</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/troubleshooting/chatgpt/">Не работает ChatGPT, Grok или иной сервис</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/troubleshooting/youtube/">Не открывается видео или есть реклама на YouTube</a>
 </div></section>
