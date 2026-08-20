@@ -2,7 +2,7 @@
 layout: default
 title: Приложения вне российского App Store
 lang: ru
-permalink: /ru/knowledge/tips/russian-app-store.md/
+permalink: /ru/knowledge/tips/russian-app-store/
 ---
 {% include knowledge-styles.html %}
 
