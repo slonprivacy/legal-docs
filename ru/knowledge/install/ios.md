@@ -124,7 +124,7 @@ permalink: /ru/knowledge/install/ios/
       <h2 id="incy-video-title">Видеоинструкция</h2>
       <p>Посмотрите весь процесс установки и подключения INCY на iOS.</p>
       <video class="guide-video" controls playsinline preload="metadata">
-        <source src="{{ site.baseurl }}/assets/video/knowledge-base/ios/incy/ios-incy-install.MP4" type="video/mp4">
+        <source src="{{ site.baseurl }}/assets/video/knowledge-base/ios/incy/ios-incy-install.mp4" type="video/mp4">
         Ваш браузер не поддерживает воспроизведение видео.
       </video>
     </section>
