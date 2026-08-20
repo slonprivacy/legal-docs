@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Не открываются российские сервисы
 lang: ru
-permalink: /ru/knowledge/troubleshooting/russian-services/
-----------------------------------------------------------
+permalink: /ru/knowledge/troubleshooting/russian-services
+---
 
 {% include knowledge-styles.html %}
 
