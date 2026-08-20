@@ -13,7 +13,7 @@ permalink: /ru/knowledge/install/macos/
   <div class="guide-note">
     <strong>Перед началом</strong>
     <p>Убедитесь, что подписка Slon Privacy активна, а Mac подключён к Интернету.</p>
-    <a href="https://legal.slonprivacy.app/ru/knowledge/subscription/how-to-subscribe/" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
+    <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Как подписаться →</a>
   </div>
 
   <section class="guide-step">
