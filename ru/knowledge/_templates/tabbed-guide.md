@@ -19,7 +19,7 @@ permalink: /ru/knowledge/install/android/
     <div class="guide-note">
       <strong>Перед началом</strong>
       <p>Убедитесь, что подписка Slon Privacy активна, а телефон подключён к интернету.</p>
-    <a href="https://legal.slonprivacy.app/ru/knowledge/subscription/how-to-subscribe/" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
+   <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Как подписаться →</a>
     </div>
 
     <section class="guide-video-section" aria-labelledby="happ-video-title">
@@ -120,7 +120,7 @@ permalink: /ru/knowledge/install/android/
     <div class="guide-note">
       <strong>Перед началом</strong>
       <p>Убедитесь, что подписка Slon Privacy активна, а телефон подключён к интернету.</p>
-    <a href="https://legal.slonprivacy.app/ru/knowledge/subscription/how-to-subscribe/" target="_blank" rel="noopener noreferrer">Как подписаться →</a>
+    <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Как подписаться →</a>
     </div>
 
     <section class="guide-video-section" aria-labelledby="incy-video-title">
