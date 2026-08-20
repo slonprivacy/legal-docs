@@ -48,13 +48,13 @@ permalink: /ru/knowledge/tips/quick-help/
   <li>
     <strong>Сменить регион основного аккаунта Apple.</strong>
     С апреля 2026 года Apple упростила эту процедуру для российских пользователей: регион можно сменить даже при активных подписках и без привязанной банковской карты. После установки Happ или INCY регион можно вернуть на российский. Для обновления приложения в дальнейшем может потребоваться снова временно переключить регион на зарубежный.
-    <a href="https://legal.slonprivacy.app/ru/knowledge/tips/russian-app-store/" target="_blank" rel="noopener noreferrer">Инструкция по смене региона →</a>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/russian-app-store/">Инструкция по смене региона →</a>
   </li>
 
   <li>
     <strong>Создать дополнительный аккаунт Apple с другим регионом.</strong>
     Такой аккаунт можно использовать для скачивания и обновления приложений, переключаясь между аккаунтами при необходимости.
-    <a href="https://legal.slonprivacy.app/ru/knowledge/tips/russian-app-store/" target="_blank" rel="noopener noreferrer">Инструкция по созданию аккаунта →</a>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/russian-app-store/">Инструкция по созданию аккаунта →</a>
   </li>
 </ul>
     </details>
