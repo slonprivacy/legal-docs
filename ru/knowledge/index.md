@@ -35,7 +35,7 @@ permalink: /ru/knowledge/
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/payment-without-telegram/">Оплата, если Telegram недоступен</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/gift-subscription/">Как подарить подписку</a>
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/referral-program/">Реферальная программа</a>
-<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/referral-program/">Увеличение доступного трафика</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/subscription/additional-traffic/">Увеличение доступного трафика</a>
 </div></section>
 
 <section class="kb-section">
