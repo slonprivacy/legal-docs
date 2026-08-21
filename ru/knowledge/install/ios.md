@@ -45,7 +45,7 @@ permalink: /ru/knowledge/install/ios/
         <p>Выберите устройство <strong>iOS</strong> и приложение <strong>Happ</strong>.</p>
         <p>Нажмите подходящую кнопку App Store и установите приложение.</p>
         <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/ios/happ/02-select-IOS-happ.webp" alt="Выбор iOS и Happ на странице установки Slon Privacy" loading="lazy">
-       Если приложение в App Store недоступно, <a href="{{ site.baseurl }}/ru/knowledge/tips/russian-app-store/">смените регион аккаунта Apple</a> или используйте другое приложение.
+      <p>Если приложение в App Store недоступно, используйте приложение INCY или <a href="{{ site.baseurl }}/ru/knowledge/tips/russian-app-store/">смените регион аккаунта Apple.</a></p> 
       </div>
     </section>
 
@@ -156,7 +156,7 @@ permalink: /ru/knowledge/install/ios/
         <p>Выберите устройство <strong>iOS</strong> и приложение <strong>INCY</strong>.</p>
         <p>Нажмите <strong>«App Store»</strong> и установите приложение.</p>
         <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/ios/incy/02-select-IOS-INCY.webp" alt="Выбор iOS и INCY на странице установки Slon Privacy" loading="lazy">
-        Если приложение в App Store недоступно, <a href="{{ site.baseurl }}/ru/knowledge/tips/russian-app-store/">смените регион аккаунта Apple</a> или используйте другое приложение.
+         <p>Если приложение в App Store недоступно, используйте приложение Happ или <a href="{{ site.baseurl }}/ru/knowledge/tips/russian-app-store/">смените регион аккаунта Apple.</a></p> 
       </div>
     </section>
 
