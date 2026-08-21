@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Список локаций Slon Privacy
+title: Локации Slon Privacy
 lang: ru
 permalink: /ru/knowledge/about/locations/
 ---
