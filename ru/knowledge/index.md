@@ -1,6 +1,7 @@
 ---
 layout: default
 title: База знаний
+description: "База знаний Slon Privacy: инструкции по установке на Android, iOS, Windows и macOS, управление подпиской, полезные советы и решение проблем."
 lang: ru
 permalink: /ru/knowledge/
 ---
