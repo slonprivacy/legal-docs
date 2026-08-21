@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Установка Slon Privacy на Android
+description: Пошаговая инструкция по установке и настройке Slon Privacy на Android через Happ Plus или INCY.
 lang: ru
 permalink: /ru/knowledge/install/android/
 ---
