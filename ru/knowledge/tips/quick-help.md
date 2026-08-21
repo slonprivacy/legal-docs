@@ -2,6 +2,7 @@
 layout: default
 title: Решение проблем с Slon Privacy на Android и iOS
 description: "Быстрая помощь при проблемах с Slon Privacy на Android и iOS: Happ и INCY не подключаются, VPN не работает через мобильный интернет или приложение недоступно в App Store."
+lang: ru
 permalink: /ru/knowledge/tips/quick-help/
 ---
 {% include knowledge-styles.html %}
