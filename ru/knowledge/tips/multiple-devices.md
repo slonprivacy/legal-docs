@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Установка Slon Privacy на несколько устройств
+description: "Как установить Slon Privacy на несколько устройств: подключить телефон, планшет или компьютер через личный кабинет или QR-код."
 lang: ru
 permalink: /ru/knowledge/tips/multiple-devices/
 ---
