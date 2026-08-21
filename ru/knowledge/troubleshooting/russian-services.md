@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Не открываются российские сервисы
+description: "Что делать, если с VPN не открываются российские сайты и сервисы: Авито, Госуслуги, Кинопоиск и другие. Выбор подходящей локации Slon Privacy."
 lang: ru
 permalink: /ru/knowledge/troubleshooting/russian-services/
 ---
@@ -23,7 +24,7 @@ permalink: /ru/knowledge/troubleshooting/russian-services/
    <div class="guide-step-content">
   <h2>Выберите подходящую локацию</h2>
   <p>Для российских сервисов рекомендуем использовать локации Slon Privacy, на которых работают все или большинство российских сайтов и приложений.</p>
-  <p>Например, попробуйте сервер с обозначением <strong>RU → ND</strong>.</p>
+ <p>Попробуйте локацию <strong>RU → ND</strong>, если вам одновременно нужен доступ к российским и зарубежным сервисам. Если вы находитесь за границей и вам нужны российские сервисы, используйте локацию <strong>RU</strong>.</p>
   <p><a href="{{ site.baseurl }}/ru/knowledge/about/locations/">Посмотреть список локаций Slon Privacy →</a></p>
 </div>
   </section>
