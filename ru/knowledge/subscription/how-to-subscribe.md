@@ -66,5 +66,15 @@ permalink: /ru/knowledge/subscription/how-to-subscribe/
   <div class="guide-success">
     <strong>Готово!</strong> Подписка Slon Privacy активна. Теперь можно подключать устройства и выбирать любую доступную локацию.
   </div>
-
+  
+<div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>Установите Slon Privacy на нужное устройство:</p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/install/android/">Android</a> ·
+    <a href="{{ site.baseurl }}/ru/knowledge/install/ios/">iOS</a> ·
+    <a href="{{ site.baseurl }}/ru/knowledge/install/windows/">Windows</a> ·
+    <a href="{{ site.baseurl }}/ru/knowledge/install/macos/">macOS</a>
+  </p>
+</div>
 </section>
