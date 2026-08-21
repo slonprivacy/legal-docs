@@ -20,7 +20,7 @@ permalink: /ru/knowledge/install/macos/
     <div class="guide-step-number">1</div>
     <div class="guide-step-content">
       <h2>Скачайте INCY</h2>
-      <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или через <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайт</a>. Нажмите «Главная», затем нажмите «Подключить устройство». Выберите <strong>macOS</strong>.</p>
+       <p>Войдите в личный кабинет через <a href="https://t.me/slon_privacy_bot" target="_blank" rel="noopener noreferrer">Telegram-бота</a> или через <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайт</a>. Нажмите «Главная», затем нажмите «Подключить устройство». Выберите <strong>macOS</strong>.</p>
       <p>Выберите подходящий способ установки:</p>
       <ul class="guide-simple-list">
         <li><strong>App Store</strong> — рекомендуется большинству пользователей.</li>
@@ -103,5 +103,15 @@ permalink: /ru/knowledge/install/macos/
       <summary>macOS снова запрашивает пароль администратора</summary>
       <p>Введите пароль учётной записи администратора и подтвердите запрос. Это системное разрешение необходимо INCY для создания VPN-подключения.</p>
     </details>
+
+  <div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на другое устройство →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/quick-help/">Быстрая помощь, если возникли проблемы →</a>
+  </p>
+</div>
   </section>
 </section>
