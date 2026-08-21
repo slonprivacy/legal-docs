@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Что такое Slon Privacy
+description: Что такое Slon Privacy, как работает сервис, что происходит с интернет-трафиком после подключения и какие данные он защищает.
 lang: ru
 permalink: /ru/knowledge/about/what-is-slon-privacy/
 ---
