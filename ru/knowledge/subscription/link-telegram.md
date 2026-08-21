@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Как привязать Telegram и Email к аккаунту Slon Privacy
+description: Как привязать Telegram и Email к аккаунту Slon Privacy, добавить резервный способ входа и сохранить доступ к личному кабинету.
 lang: ru
 permalink: /ru/knowledge/subscription/link-telegram/
 ---
