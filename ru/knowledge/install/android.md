@@ -220,6 +220,16 @@ permalink: /ru/knowledge/install/android/
         <summary>INCY подключается, но сайты не открываются</summary>
         <p>Отключитесь, выберите другой сервер и подключитесь снова. Также временно отключите другие VPN-приложения, частный DNS и программы, которые могут управлять сетевыми подключениями.</p>
       </details>
+
+      <div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на другое устройство →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/quick-help/">Быстрая помощь, если возникли проблемы →</a>
+  </p>
+</div>
     </section>
   </section>
 </div>
