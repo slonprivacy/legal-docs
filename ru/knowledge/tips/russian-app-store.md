@@ -124,6 +124,15 @@ permalink: /ru/knowledge/tips/russian-app-store/
       <strong>Готово!</strong> Теперь App Store использует выбранный регион. После установки Happ или INCY можно продолжить настройку <strong>Slon Privacy</strong>.
     </div>
 
+    <div class="guide-note">
+  <strong>Продолжить установку</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/install/ios/">
+      Вернуться к установке Slon Privacy на iOS →
+    </a>
+  </p>
+</div>
+
     <section class="guide-faq" aria-labelledby="change-region-faq-title">
       <h2 id="change-region-faq-title">Возможные проблемы</h2>
       <details>
@@ -236,6 +245,15 @@ permalink: /ru/knowledge/tips/russian-app-store/
     <div class="guide-success">
       <strong>Готово!</strong> Дополнительный аккаунт можно использовать для установки и обновления приложений, которых нет в российском App Store. Основной аккаунт iCloud при этом можно продолжать использовать как обычно.
     </div>
+
+    <div class="guide-note">
+  <strong>Продолжить установку</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/install/ios/">
+      Вернуться к установке Slon Privacy на iOS →
+    </a>
+  </p>
+</div>
 
     <div class="guide-note">
       <strong>Рекомендуем</strong>
