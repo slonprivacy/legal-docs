@@ -103,5 +103,15 @@ permalink: /ru/knowledge/install/macos/
       <summary>macOS снова запрашивает пароль администратора</summary>
       <p>Введите пароль учётной записи администратора и подтвердите запрос. Это системное разрешение необходимо INCY для создания VPN-подключения.</p>
     </details>
+
+  <div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на другое устройство →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/quick-help/">Быстрая помощь, если возникли проблемы →</a>
+  </p>
+</div>
   </section>
 </section>
