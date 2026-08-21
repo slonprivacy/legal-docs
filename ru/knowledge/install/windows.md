@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Установка Slon Privacy на Windows
+description: Пошаговая инструкция по установке и настройке Slon Privacy на Windows через Happ или INCY.
 lang: ru
 permalink: /ru/knowledge/install/windows/
 ---
