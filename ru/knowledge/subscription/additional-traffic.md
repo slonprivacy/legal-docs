@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Увеличение трафика
+title: Как увеличить трафик в Slon Privacy
+description: "Как увеличить трафик Slon Privacy: докупить дополнительные 50 ГБ и что делать, если требуется ещё больше трафика."
 lang: ru
 permalink: /ru/knowledge/subscription/additional-traffic/
 ---
