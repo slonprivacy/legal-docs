@@ -43,13 +43,16 @@ permalink: /ru/knowledge/about/locations/
 
     <p>Если выбранная локация работает нестабильно или нужный сервис не открывается, попробуйте другую.</p>
   </div>
-</section>
 
-<div class="guide-note">
+  <div class="guide-note">
   <strong>Что дальше?</strong>
   <p>
-    <a href="{{ site.baseurl }}/ru/knowledge/install/">Установить Slon Privacy →</a><br>
+    <a href="{{ site.baseurl }}/ru/knowledge/">Выбрать инструкцию по установке →</a><br>
     <a href="{{ site.baseurl }}/ru/knowledge/troubleshooting/russian-services/">Не открываются российские сервисы →</a><br>
     <a href="{{ site.baseurl }}/ru/knowledge/about/what-is-slon-privacy/">Узнать больше о Slon Privacy →</a>
   </p>
 </div>
+
+</section>
+
+
