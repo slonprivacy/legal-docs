@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Как подписаться на Slon Privacy
+description: Как оформить подписку Slon Privacy через сайт или Telegram-бота, активировать пробный период, выбрать тариф и способ оплаты.
 lang: ru
 permalink: /ru/knowledge/subscription/how-to-subscribe/
 ---
