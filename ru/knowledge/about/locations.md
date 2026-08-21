@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Локации Slon Privacy
+description: Доступные локации Slon Privacy, особенности серверов и выбор подходящей локации для разных задач.
 lang: ru
 permalink: /ru/knowledge/about/locations/
 ---
