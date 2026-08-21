@@ -53,5 +53,7 @@ permalink: /ru/knowledge/subscription/referral-program/
       <p>Чтобы стать партнёром Slon Privacy, заполните анкету и отправьте заявку на партнёрство.</p>
       <img class="guide-image guide-image-small" src="{{ site.baseurl }}/assets/img/knowledge-base/referral/02-partnership.webp" alt="Кнопка подачи заявки на партнёрскую программу Slon Privacy" loading="lazy">
     </div>
+
+    <p><a href="{{ site.baseurl }}/ru/knowledge/subscription/gift-subscription/">Как подарить подписку Slon Privacy →</a></p>
   </section>
 </section>
