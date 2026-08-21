@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Как подарить подписку Slon Privacy
+description: "Как подарить подписку Slon Privacy: выбрать срок, оплатить подарок и передать получателю подарочный код для активации."
 lang: ru
 permalink: /ru/knowledge/subscription/gift-subscription/
 ---
@@ -64,4 +65,14 @@ permalink: /ru/knowledge/subscription/gift-subscription/
 
 <div class="guide-success">
 <strong>Готово!</strong> Получателю останется только активировать подарочный код в своём личном кабинете Slon Privacy.
+</div>
+
+<div class="guide-note">
+  <strong>Что дальше?</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Оформить подписку Slon Privacy для себя →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на несколько устройств →</a>
+  </p>
 </div>
