@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Политика конфиденциальности
+description: "Политика конфиденциальности Slon Privacy: порядок обработки и защиты персональных данных пользователей сервиса."
 lang: ru
 permalink: /ru/privacy
 ---
