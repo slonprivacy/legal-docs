@@ -65,5 +65,9 @@ permalink: /ru/knowledge/subscription/link-telegram/
   <div class="guide-success">
     <strong>Готово!</strong> Telegram и Email привязаны к одному аккаунту Slon Privacy.
   </div>
-
+  
+<div class="guide-note">
+  <strong>Если Telegram недоступен</strong>
+  <p><a href="{{ site.baseurl }}/ru/knowledge/subscription/payment-without-telegram/">Как войти в личный кабинет и оплатить подписку без Telegram →</a></p>
+</div>
 </section>
