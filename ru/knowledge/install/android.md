@@ -110,6 +110,16 @@ permalink: /ru/knowledge/install/android/
         <summary>Не получается использовать Happ?</summary>
         <p>Попробуйте установить <button type="button" class="guide-inline-tab-link" data-open-app-tab="incy-panel"><strong>INCY</strong></button> — он совместим со Slon Privacy и может работать стабильнее на некоторых устройствах.</p>
       </details>
+  
+   <div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на другое устройство →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/quick-help/">Быстрая помощь, если возникли проблемы →</a>
+  </p>
+</div>
     </section>
   </section>
 
