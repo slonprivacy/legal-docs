@@ -2,6 +2,7 @@
 
 layout: default
 title: Не открывается видео или есть реклама на YouTube
+description: "Что делать, если не открывается видео на YouTube с VPN, и какую локацию Slon Privacy выбрать для просмотра YouTube без рекламы."
 lang: ru
 permalink: /ru/knowledge/troubleshooting/youtube/
 ---
@@ -16,7 +17,7 @@ permalink: /ru/knowledge/troubleshooting/youtube/
 
   <div class="guide-note">
     <strong>YouTube без рекламы</strong>
-    <p>Подключитесь к любой локации в Нидерландах — на этих локациях YouTube работает без рекламы.</p>
+    <p>Подключитесь к любой локации в Нидерландах — на этих локациях YouTube работает без рекламы. <p><a href="{{ site.baseurl }}/ru/knowledge/about/locations/">Посмотреть доступные локации Slon Privacy →</a></p></p>
   </div>
 
   <div class="guide-success">
