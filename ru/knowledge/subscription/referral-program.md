@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Реферальная программа Slon Privacy
+description: "Как работает реферальная программа Slon Privacy: приглашение пользователей, комиссия 30%, использование заработанных средств и вывод вознаграждения."
 lang: ru
 permalink: /ru/knowledge/subscription/referral-program/
 ---
