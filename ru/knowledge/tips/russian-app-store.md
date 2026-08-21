@@ -28,6 +28,11 @@ permalink: /ru/knowledge/tips/russian-app-store/
   <p>Если сменить регион не удалось, используйте второй способ — <strong>создание дополнительного аккаунта Apple</strong>.</p>
 </div>
 
+<div class="guide-note">
+  <strong>Если приложение недоступно в российском App Store</strong>
+  <p>Доступность приложений зависит от страны или региона вашего Apple Account. Чтобы скачать приложение, которого нет в российском App Store, можно сменить регион текущего аккаунта или создать дополнительный зарубежный Apple Account.</p>
+</div>
+
 <div class="app-tabs" data-app-tabs>
   <div class="app-tab-buttons" role="tablist" aria-label="Способ изменения региона App Store">
     <button class="app-tab-button" role="tab" aria-selected="true" aria-controls="change-region-panel">Смена региона App Store</button>
