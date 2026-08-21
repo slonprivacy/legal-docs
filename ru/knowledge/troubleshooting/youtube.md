@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: Не открывается видео или есть реклама на YouTube
+title: Не работает YouTube с VPN или появляется реклама
 description: "Что делать, если не открывается видео на YouTube с VPN, и какую локацию Slon Privacy выбрать для просмотра YouTube без рекламы."
 lang: ru
 permalink: /ru/knowledge/troubleshooting/youtube/
