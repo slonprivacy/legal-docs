@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: YouTube
+title: Не открывается видео или есть реклама на YouTube
 lang: ru
 permalink: /ru/knowledge/troubleshooting/youtube/
 ---
