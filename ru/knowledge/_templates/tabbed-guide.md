@@ -19,7 +19,7 @@ permalink: /ru/knowledge/install/android/
     <div class="guide-note">
       <strong>Перед началом</strong>
       <p>Убедитесь, что подписка Slon Privacy активна, а телефон подключён к интернету.</p>
-   <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Как подписаться →</a>
+    <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Как подписаться →</a>
     </div>
 
     <section class="guide-video-section" aria-labelledby="happ-video-title">
@@ -110,6 +110,16 @@ permalink: /ru/knowledge/install/android/
         <summary>Не получается использовать Happ?</summary>
         <p>Попробуйте установить <button type="button" class="guide-inline-tab-link" data-open-app-tab="incy-panel"><strong>INCY</strong></button> — он совместим со Slon Privacy и может работать стабильнее на некоторых устройствах.</p>
       </details>
+  
+   <div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на другое устройство →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/quick-help/">Быстрая помощь, если возникли проблемы →</a>
+  </p>
+</div>
     </section>
   </section>
 
@@ -210,6 +220,16 @@ permalink: /ru/knowledge/install/android/
         <summary>INCY подключается, но сайты не открываются</summary>
         <p>Отключитесь, выберите другой сервер и подключитесь снова. Также временно отключите другие VPN-приложения, частный DNS и программы, которые могут управлять сетевыми подключениями.</p>
       </details>
+
+      <div class="guide-note">
+  <strong>Что дальше</strong>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/multiple-devices/">Установить Slon Privacy на другое устройство →</a>
+  </p>
+  <p>
+    <a href="{{ site.baseurl }}/ru/knowledge/tips/quick-help/">Быстрая помощь, если возникли проблемы →</a>
+  </p>
+</div>
     </section>
   </section>
 </div>
