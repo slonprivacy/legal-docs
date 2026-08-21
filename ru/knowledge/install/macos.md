@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Установка Slon Privacy на macOS
+description: Пошаговая инструкция по установке и настройке Slon Privacy на macOS через INCY для Mac с Apple Silicon и Intel.
 lang: ru
 permalink: /ru/knowledge/install/macos/
 ---
