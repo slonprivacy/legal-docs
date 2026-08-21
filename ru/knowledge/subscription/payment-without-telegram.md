@@ -21,7 +21,7 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
       <h2 id="telegram-unavailable-title">Войдите через электронную почту</h2>
       <p>Если вы заранее привязали <strong>Email</strong> к профилю Slon Privacy, авторизуйтесь на <a href="https://my.slonprivacy.app/login" target="_blank" rel="noopener noreferrer">сайте</a> без использования Telegram.</p>
       <p>После входа вы сможете проверить подписку, продлить её или подключить новое устройство.</p>
-      <p><a href="/ru/knowledge/subscription/link-telegram/">Как привязать Telegram и электронную почту →</a></p>
+      <p><a href="{{ site.baseurl }}/ru/knowledge/subscription/link-telegram/">Как привязать Telegram и электронную почту →</a></p>
     </div>
   </section>
 
@@ -74,7 +74,7 @@ permalink: /ru/knowledge/subscription/payment-without-telegram/
         <li>Откройте Telegram и восстановите доступ к своему аккаунту.</li>
         <li>После входа привяжите Telegram и Email к одному аккаунту.</li>
       </ul>
-      <p><a href="/ru/knowledge/subscription/link-telegram/">Как объединить Telegram и Email →</a></p>
+      <p><a href="{{ site.baseurl }}/ru/knowledge/subscription/link-telegram/">Как объединить Telegram и Email →</a></p>
     </div>
   </section>
 
