@@ -30,6 +30,14 @@ permalink: /ru/knowledge/troubleshooting/chatgpt/
     </div>
   </section>
 
+  <section class="guide-step">
+  <div class="guide-step-number">3</div>
+  <div class="guide-step-content">
+    <h2>Попробуйте режим инкогнито</h2>
+    <p>Если ChatGPT или другой сервис по-прежнему не открывается, попробуйте открыть его в режиме инкогнито или приватном окне браузера. Сохранённые cookies и данные предыдущих сессий иногда могут мешать корректной работе после смены локации.</p>
+  </div>
+</section>
+
   <div class="guide-warning">
     <strong>Если ничего не помогло</strong>
     <p>Напишите в службу поддержки Slon Privacy. Укажите, какой сервис не открывается и какие локации вы уже пробовали — постараемся разобраться.</p>
