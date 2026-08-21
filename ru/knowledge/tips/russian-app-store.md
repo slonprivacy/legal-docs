@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Приложения вне российского App Store
+title: Как сменить регион App Store или создать зарубежный аккаунт Apple
+description: "Как скачать приложения, недоступные в российском App Store: сменить страну или регион Apple Account либо создать дополнительный зарубежный аккаунт."
 lang: ru
 permalink: /ru/knowledge/tips/russian-app-store/
 ---
