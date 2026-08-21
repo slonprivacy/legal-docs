@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Публичная оферта
+description: "Публичная оферта Slon Privacy: условия предоставления услуг, оплаты, использования сервиса, права и обязанности сторон."
 lang: ru
 permalink: /ru/offer
 ---
