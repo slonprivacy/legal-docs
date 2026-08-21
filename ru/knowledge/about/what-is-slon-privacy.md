@@ -210,7 +210,7 @@ permalink: /ru/knowledge/about/what-is-slon-privacy/
   <strong>Что дальше?</strong>
   <p>
     <a href="{{ site.baseurl }}/ru/knowledge/about/locations/">Посмотреть доступные локации →</a><br>
-    <a href="{{ site.baseurl }}/ru/knowledge/install/">Установить Slon Privacy →</a><br>
+    <a href="{{ site.baseurl }}/ru/knowledge/">Выбрать инструкцию по установке →</a><br>
     <a href="{{ site.baseurl }}/ru/knowledge/subscription/how-to-subscribe/">Оформить подписку →</a>
   </p>
 </div>
