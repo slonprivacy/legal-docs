@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Не работает сайт с подключённым Slon Privacy
+description: "Что делать, если сайт не открывается с подключённым Slon Privacy: смена локации, VPN-протокола и другие способы решения проблемы."
 lang: ru
 permalink: /ru/knowledge/troubleshooting/website-not-working/
 ---
@@ -19,7 +20,7 @@ permalink: /ru/knowledge/troubleshooting/website-not-working/
     <div class="guide-step-number">1</div>
     <div class="guide-step-content">
       <h2>Смените локацию</h2>
-      <p>Сначала выберите сервер в том же или близком к вашему часовом поясе. Если это не помогло — попробуйте другую локацию.</p>
+      <p>Сначала выберите сервер в том же или близком к вашему часовом поясе. Если это не помогло — попробуйте другую локацию. <a href="{{ site.baseurl }}/ru/knowledge/about/locations/">Подробнее о доступных локациях Slon Privacy →</a></p>
     </div>
   </section>
 
