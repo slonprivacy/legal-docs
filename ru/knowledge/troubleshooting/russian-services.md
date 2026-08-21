@@ -20,10 +20,11 @@ permalink: /ru/knowledge/troubleshooting/russian-services/
 
   <section class="guide-step">
     <div class="guide-step-number">1</div>
-    <div class="guide-step-content">
-      <h2>Выберите подходящую локацию</h2>
-      <p>Для российских сервисов рекомендуем использовать локации Slon Privacy, на которых работают все или большинство российских сайтов и приложений.</p>
+   <div class="guide-step-content">
+  <h2>Выберите подходящую локацию</h2>
+  <p>Для российских сервисов рекомендуем использовать локации Slon Privacy, на которых работают все или большинство российских сайтов и приложений.</p>
   <p>Например, попробуйте сервер с обозначением <strong>RU → ND</strong>.</p>
+  <p><a href="{{ site.baseurl }}/ru/knowledge/about/locations/">Посмотреть список локаций Slon Privacy →</a></p>
 </div>
   </section>
 
