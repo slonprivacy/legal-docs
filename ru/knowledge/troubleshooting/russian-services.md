@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Не открываются российские сервисы
+title: Не открываются российские сайты и сервисы с VPN
 description: "Что делать, если с VPN не открываются российские сайты и сервисы: Авито, Госуслуги, Кинопоиск и другие. Выбор подходящей локации Slon Privacy."
 lang: ru
 permalink: /ru/knowledge/troubleshooting/russian-services/
