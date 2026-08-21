@@ -54,3 +54,4 @@ permalink: /ru/knowledge/about/locations/
     <a href="{{ site.baseurl }}/ru/knowledge/about/what-is-slon-privacy/">Узнать больше о Slon Privacy →</a>
   </p>
 </div>
+</section>
