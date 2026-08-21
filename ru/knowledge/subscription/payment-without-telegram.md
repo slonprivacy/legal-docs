@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Telegram недоступен? Как войти в личный кабинет и оплатить подписку
+description: Что делать, если Telegram недоступен: как войти в Slon Privacy через Email, оплатить подписку и восстановить доступ к Telegram.
 lang: ru
 permalink: /ru/knowledge/subscription/payment-without-telegram/
 ---
