@@ -23,7 +23,7 @@ permalink: /ru/knowledge/
 <p class="kb-section-description">Узнайте больше о сервисе.</p>
 <div class="kb-links">
 <a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/about/what-is-slon-privacy/">Что такое Slon Privacy</a>
-<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/about/locations/">Список локаций</a>
+<a class="kb-link" href="{{ site.baseurl }}/ru/knowledge/about/locations/">Локации Slon Privacy</a>
 </div></section>
 
 <section class="kb-section">
