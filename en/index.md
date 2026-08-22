@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Legal Documentation
+title: Documentation
 lang: en
 permalink: /en/
 ---
 
+- [Knowledge Base]({{ site.baseurl }}/en/knowledge/)
 - [Public Offer]({{ site.baseurl }}/en/offer)
 - [Privacy Policy]({{ site.baseurl }}/en/privacy)
 
