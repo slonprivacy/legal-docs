@@ -17,7 +17,7 @@ permalink: /ru/knowledge/subscription/referral-program/
       <p>Получить персональную реферальную ссылку можно двумя способами, зайдя в личный кабинет:</p>
       <ul class="guide-simple-list">
         <li>через <strong>Telegram-бот Slon Privacy</strong>;</li>
-        <li>через <strong>личный кабинет Slon Privacy</strong>.</li>
+        <li>через <strong>почту google или yandex</strong>.</li>
       </ul>
       <img class="guide-image" src="{{ site.baseurl }}/assets/img/knowledge-base/referral/01-referral-links.webp" alt="Реферальные ссылки на Telegram-бота и личный кабинет Slon Privacy" loading="lazy">
       <p>Передайте свою реферальную ссылку человеку, которого хотите пригласить, любым доступным способом. После регистрации по вашей ссылке он станет вашим рефералом.</p>
