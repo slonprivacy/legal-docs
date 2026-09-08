@@ -30,29 +30,39 @@ permalink: /ru/knowledge/tips/multiple-devices/
     </div>
   </section>
 
-  <section class="guide-step">
-    <div class="guide-step-number">2</div>
-    <div class="guide-step-content">
-      <h2>Передайте подписку с помощью ссылки или QR-кода</h2>
-      <p>Этот способ позволяет подключить другое устройство без передачи доступа к личному кабинету.</p>
-      <div class="guide-warning"><strong>Перед отправкой QR-кода:</strong> убедитесь, что на другом устройстве уже установлено приложение, которое вы выбираете в личном кабинете — <strong>Happ</strong> или <strong>INCY</strong>. QR-код необходимо создавать именно для установленного приложения.</div>
-      <ul class="guide-simple-list">
-        <li>Откройте личный кабинет Slon Privacy на своём устройстве.</li>
-        <li>Перейдите к подключению нового устройства.</li>
-        <li>Выберите нужную платформу и приложение, установленное на другом устройстве — Happ или INCY.</li>
-        <li>Нажмите кнопку <strong>QR-кода подписки</strong>.</li>
-        <li>Вы можете дать отсканировать QR-код, сохранить и передать QR-код либо скопировать персональную ссылку подписки, расположенную под ним.</li>
-      </ul>
-      <img class="guide-image guide-image-small" src="{{ site.baseurl }}/assets/img/knowledge-base/multi-device/01-subscription-qr.jpg" alt="Кнопка QR-кода подписки на странице установки Slon Privacy" loading="lazy">
+<section class="guide-step">
+  <div class="guide-step-number">2</div>
+
+  <div class="guide-step-content">
+    <h2>Передайте подписку с помощью ссылки или QR-кода</h2>
+
+    <p>Этот способ позволяет подключить другое устройство без передачи доступа к личному кабинету.</p>
+
+    <div class="guide-warning">
+      <strong>Перед отправкой QR-кода или ссылки:</strong> убедитесь, что на другом устройстве уже установлено приложение, которое вы выбираете в личном кабинете — <strong>Happ</strong> или <strong>INCY</strong>.
     </div>
-<div class="guide-note">
-  
-  <strong>Персональная ссылка подписки</strong>
-  <p>Ссылка вида <strong>https://sub.slonprivacy.app/...</strong> подходит для подключения Slon Privacy на разных устройствах и в поддерживаемых приложениях. Её можно скопировать и передать на другое устройство вместо QR-кода.</p>
-  <p>Не публикуйте эту ссылку и не передавайте посторонним — она предоставляет доступ к вашей подписке.</p>
-</div>
-  
-  </section>
+
+    <ul class="guide-simple-list">
+      <li>Откройте личный кабинет Slon Privacy на своём устройстве.</li>
+      <li>Перейдите к подключению нового устройства.</li>
+      <li>Выберите нужную платформу и приложение, установленное на другом устройстве — Happ или INCY.</li>
+      <li>Нажмите кнопку <strong>QR-кода подписки</strong>.</li>
+      <li>Вы можете дать отсканировать QR-код, сохранить и передать его либо скопировать персональную ссылку подписки, расположенную под ним.</li>
+    </ul>
+
+    <img
+      class="guide-image guide-image-small"
+      src="{{ site.baseurl }}/assets/img/knowledge-base/multi-device/01-subscription-qr.jpg"
+      alt="QR-код и персональная ссылка подписки Slon Privacy"
+      loading="lazy">
+
+    <div class="guide-note">
+      <strong>Персональная ссылка подписки</strong>
+      <p>Ссылка вида <strong>https://sub.slonprivacy.app/...</strong> подходит для подключения Slon Privacy на разных устройствах и в поддерживаемых приложениях. Её можно скопировать и передать на другое устройство вместо QR-кода.</p>
+      <p>Не публикуйте эту ссылку и не передавайте посторонним — она предоставляет доступ к вашей подписке.</p>
+    </div>
+  </div>
+</section>
 
   <section class="guide-step">
     <div class="guide-step-number">3</div>
